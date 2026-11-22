@@ -258,7 +258,7 @@ export class Architecture {
     }
     const budget=integer(a.maxChars,14000,2000,40000);
     let result;
-    if(name==='arch_projects') result={projects:[{id:'rdd',title:'RDD / Minecraft',entry:'D:/rdd/workspace/AGENTS.md',purpose:'真实Minecraft长程运行、学习与改进'},...(this.graph.projects||[]).map(({_file,_root,...p})=>p)],note:'每项目一张小地图；选择project继续，不合并项目正文、权限或施工授权。'};
+    if(name==='arch_projects') result={projects:[{id:'rdd',title:'RDD / Minecraft',entry:'AGENTS.md',purpose:'真实Minecraft长程运行、学习与改进'},...(this.graph.projects||[]).map(({_file,_root,...p})=>p)],note:'每项目一张小地图；选择project继续，不合并项目正文、权限或施工授权。'};
     else if(name==='arch_overview') result=this.overview();
     else if(name==='arch_focus') result=this.navigate(a);
     else if(name==='arch_search') {
