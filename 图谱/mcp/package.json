@@ -1,0 +1,20 @@
+{
+  "name": "rdd-architecture-public-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only public architecture graph MCP for RDD; sourced design navigation, not live game truth or work authorization.",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "cli": "node cli.mjs arch_overview",
+    "check": "node cli.mjs arch_integrity"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
