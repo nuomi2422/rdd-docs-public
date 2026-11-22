@@ -3,8 +3,8 @@
   "docId": "architecture.navigation-graph",
   "kind": "navigation-index",
   "status": "current",
-  "ownerRole": "architecture-maintainer",
-  "visibility": "internal",
+  "ownerRole": "docs-maintainer",
+  "visibility": "public-sanitized",
   "updatedAt": "2026-11-22T04:33:29.263Z",
   "verifiedAt": null,
   "supersedes": [],
@@ -16,7 +16,7 @@
     {
       "id": "intent",
       "path": "架构/034-架构思维导航MCP.md",
-      "sha256": "de39d266b8da993c93de34551af8eee9f272827c98c3db7bb2454b0c19807eef",
+      "sha256": "556c91fe8308e61cb5b37f887ca0b7e04ab46966fc131123490a3897cebf61f0",
       "indexedAt": "2026-11-22T04:33:29.230Z",
       "kind": "architecture_current_document",
       "locator": "§1.7 执行重整及 2026-11-19 后继决定；§1.8 通关轮回；§3 导航读法"
@@ -24,7 +24,7 @@
     {
       "id": "overview",
       "path": "架构/001-RDD必读.md",
-      "sha256": "e441527162a040639bd631c83586cd69e32ad7ee16ebe58b0fb983234a70b2f0",
+      "sha256": "66e0a70110de41a59d22fba510e4631ecb8bc4f614da7082b76604b58abc5ebd",
       "indexedAt": "2026-11-22T04:33:29.231Z",
       "kind": "document",
       "locator": "2026-11-17执行层重整补充及原基线正文；2026-11-18当前实施边界见053 §0/§6，历史源码/部署/效果不升级"
@@ -32,7 +32,7 @@
     {
       "id": "coding",
       "path": "架构/025-外部编码线.md",
-      "sha256": "52ceadb71a8f4273ff57904ea7d675f66578406992165cbc95acec025d72fbc6",
+      "sha256": "564004d63b5055751090da7fc2784047a44f4031cf1d388ad36058aee5bfe984",
       "indexedAt": "2026-11-22T04:33:29.232Z",
       "kind": "document",
       "locator": "2026-11-17执行层重整补充及原基线正文"
@@ -40,7 +40,7 @@
     {
       "id": "learning",
       "path": "架构/026-学习线.md",
-      "sha256": "183ae62cc56962d06b6ed2462fa78c890081917873c92e8baa0a91acf155cc61",
+      "sha256": "7e2451833ea586b971635664357a00ed378967f1e587e31f90b4046a7ddde789",
       "indexedAt": "2026-11-22T04:33:29.232Z",
       "kind": "document",
       "locator": "§先看外置学习者职责地图；§自动运行完整闭环；学习单位到行为反馈"
@@ -48,7 +48,7 @@
     {
       "id": "learning-current-audit",
       "path": "施工/046-skills接入检索施工单-20261108.md",
-      "sha256": "b23a1f110b89893427451c4ca6fd62c50bdac930f1eb6edbac0a33c71690df9f",
+      "sha256": "9055677106a2e4d6a3f20101035670a47222adde2007c81264473f7421119ab1",
       "indexedAt": "2026-11-22T04:33:29.233Z",
       "kind": "document",
       "locator": "L15–23整单端到端验收出口及已存在接线；L39–50为2026-11-12主人教学/技能可用性历史快照，仅该时点目录/正文/检索与未证入口，不据本次索引签自然采用或效果"
@@ -56,7 +56,7 @@
     {
       "id": "taskchain",
       "path": "架构/027-任务链线.md",
-      "sha256": "827b01f243bba3f5ced5bf601fb9322f4ebb54164eb19bc4e96f4568c1a06a3b",
+      "sha256": "13429cff4aba9c4f50a3b8d4b07590677a5c9be57ceab7ba845c78ae79524f6a",
       "indexedAt": "2026-11-22T04:33:29.234Z",
       "kind": "document",
       "locator": "先看摘要+任务/AC/身体所有权、why送达、完成判据；L97–104游戏内监督决定"
@@ -64,7 +64,7 @@
     {
       "id": "rdd",
       "path": "架构/014-RDD模块.md",
-      "sha256": "40cdbebcb9fd14ffc0567a8885b095b9f0e8dc7a5340cbdefcd23cf92aa1dfcf",
+      "sha256": "f63dda6427f395c1c0a6cee7a630794a7dc10e091ec968dec4d11c4ede880440",
       "indexedAt": "2026-11-22T04:33:29.235Z",
       "kind": "document",
       "locator": "L49–51本轮职责定位及008唯一证据入口；旧源码审计保原时点，不签新发布/实机"
@@ -72,7 +72,7 @@
     {
       "id": "settlement",
       "path": "架构/007-Settlement模块.md",
-      "sha256": "5bc96d4099967d95383ce7d31c4e0ec2f8414a8b5663d0cf31d6dff2a4792e9b",
+      "sha256": "44f139caa726bf5e44bf5354cf309839717008af4a7cb68b350cf34d89c5f8ee",
       "indexedAt": "2026-11-22T04:33:29.235Z",
       "kind": "document",
       "locator": "全文"
@@ -80,7 +80,7 @@
     {
       "id": "worldstate",
       "path": "架构/008-WorldState模块.md",
-      "sha256": "baf49305eb4f75c80a5a802a0126ed8d3f9d8a3e0073d9987d77dec75ff03eff",
+      "sha256": "2939d7b5843699e7011d5767099e57a155ba744c7adbd76d193ef36a89367f47",
       "indexedAt": "2026-11-22T04:33:29.236Z",
       "kind": "document",
       "locator": "末节「刷新迟到与到期瞬间」：刷新回执与公开读取的有效期；当前批次见053 §6"
@@ -88,7 +88,7 @@
     {
       "id": "learner",
       "path": "架构/015-学习模块.md",
-      "sha256": "f032ac07099cf2f34bafc34be097de15f6c66a3b0040273b6cce3466f752c58d",
+      "sha256": "e9b22b56e3c332de66fb3bf3d2a6f32c549075b980607eb63fde373a53220f08",
       "indexedAt": "2026-11-22T04:33:29.236Z",
       "kind": "document",
       "locator": "L25起当前接线与历史边界：双端contributor/正文resolver与二跳realDepth+gateDepth已在；11-06浅队列/未接技能桥为历史原证，真实采用/恢复效果沿046/008逐票核"
@@ -96,7 +96,7 @@
     {
       "id": "experience",
       "path": "架构/016-经验模块.md",
-      "sha256": "5f0ac19a6dbc7cc207b4a45a72e0284c417c866709859f6c726e2b5ec975507b",
+      "sha256": "81cfeb5650e08a313fedd179be37b6d18d52b69788da8716d009fa4d876c45da",
       "indexedAt": "2026-11-22T04:33:29.237Z",
       "kind": "document",
       "locator": "L15–31职责/资格/交付分层；L33–45仅2026-11-06主树44609e454的检索、展开与IO历史核查。L27无人工审批按034§1.2/1.5及026§自动试用后复核读取，不把实机有效前置到首次试用；本次重读全文/历史变更但未还原旧索引hash，不签当前源码或效果"
@@ -104,7 +104,7 @@
     {
       "id": "acx",
       "path": "架构/019-ACX模块.md",
-      "sha256": "3858e8ed6c258f9e33407a664e9bc26131a0645ace61b4257403f06d3b3c2cf5",
+      "sha256": "92430a3b0c27c9e393e2bcd0cce695ffcf20ad142e3e583a02d607df67aff5b5",
       "indexedAt": "2026-11-22T04:33:29.237Z",
       "kind": "document",
       "locator": "末节「恢复时如何判定能否再派发」：宿主派发、断点与子脚本版本；当前批次见053 §6"
@@ -112,7 +112,7 @@
     {
       "id": "numen",
       "path": "架构/028-Numen引擎与执行层.md",
-      "sha256": "e6d97d14b87155535e12d5ccbf8f16589c4f25dd06fd9ea7f626664b3edcc51d",
+      "sha256": "c3ec51a797d6eba074aae2713fe19b66fb213cba22e452d6f94fb988330322d5",
       "indexedAt": "2026-11-22T04:33:29.238Z",
       "kind": "document",
       "locator": "2026-11-17执行重整与D-20261117-CYCLE-002澄清；既有基线保留；2026-11-18当前实施边界见053 §0/§6，历史源码/部署/效果不升级"
@@ -120,7 +120,7 @@
     {
       "id": "selfcompile",
       "path": "架构/031-游戏内SelfCompile模块.md",
-      "sha256": "d9c14d17294d6c46fba00446acb9efa1b96f66f3ca5c57cf035045d80569029a",
+      "sha256": "ff68aa6c935f84943b5d9d674cc61708208d2aee6e2a39724287f1233441ab6b",
       "indexedAt": "2026-11-22T04:33:29.238Z",
       "kind": "document",
       "locator": "全文"
@@ -128,7 +128,7 @@
     {
       "id": "observationPlan",
       "path": "施工/043-统一观测核心框架与分批施工交付.md",
-      "sha256": "dfbb9d96a5dc0f4cd577c330816e01eb912ee1ee5c0de338fab059c3f3a71da8",
+      "sha256": "6e19f89828910eda9f9f7cac5a6116d4f173a7d80cfec40dcf5a2128aa0d1ed4",
       "indexedAt": "2026-11-22T04:33:29.243Z",
       "kind": "document",
       "locator": "208-242"
@@ -136,7 +136,7 @@
     {
       "id": "glossary",
       "path": "术语/001-术语表.md",
-      "sha256": "bee96d587d3cc5b1c0e13dff4643a19202b8a983cc99c8da720c7bdb0af63896",
+      "sha256": "0005e8bad11c5fd99e8019b285266ca3776b36c36b51570f779f62c684cd32be",
       "indexedAt": "2026-11-22T04:33:29.248Z",
       "kind": "document",
       "locator": "L21–33组织术语、L75–85学习证据分层、L126–130驾驶/语义资产/Stage/版本纠偏；仅定义导航，非现行权限或门禁真源。L69两次退场审计为遗留，不启用旧审计锁；流程按006/034与现行进退游戏入口。本次已读全文/历史变更，旧索引hash未还原"
@@ -144,7 +144,7 @@
     {
       "id": "camera",
       "path": "架构/017-镜头模块.md",
-      "sha256": "b00517736736ecacfb241529905e9263b1b1417cf34c237ab0fe7a6bb2b7f87d",
+      "sha256": "49402c43bd5123a99e5b45c1f97401853805907e7cfb754092cd61e0f5a1f5f5",
       "indexedAt": "2026-11-22T04:33:29.248Z",
       "kind": "document",
       "locator": "D-20261115-001现行补充及原正文；历史核验按原时点，本次不升级效果"
@@ -152,7 +152,7 @@
     {
       "id": "experiment",
       "path": "架构/003-实验与门禁.md",
-      "sha256": "f53159c02dc22fcffee8f5b984c836cde1621f8265951c30be29b0fa6df72bd8",
+      "sha256": "d8d9ef54562fae36cd5575f6579683d98d7909e6d29c00085c6e06db906f52d1",
       "indexedAt": "2026-11-22T04:33:29.248Z",
       "kind": "document",
       "locator": "2026-11-06核实"
@@ -161,14 +161,14 @@
       "id": "master-plan",
       "path": "施工/044-验证先行的任务链与学习闭环总施工单.md",
       "kind": "human_requested_construction_plan",
-      "sha256": "26c5bd3cabddcbca15a661e0d6b145eed16c595be2b8979f561a2af9cc1c538c",
+      "sha256": "5b3b111eb8d2e1b8839a45a9d5f68a2f24ae5f170860ecd8a06cc89a5f0e893c",
       "indexedAt": "2026-11-22T04:33:29.253Z",
       "locator": "L678–684 总施工入口，053 现行顺序只指053 §0；旧174排期仅历史"
     },
     {
       "id": "module-030",
       "path": "架构/030-UI组件模块.md",
-      "sha256": "2d696306de2cd8fa01a0abdd9891eed98d17c32464e9bc958b86b3653e0933ac",
+      "sha256": "0352918251b85ef1db8bb2a62033bea9ac05d5ef5d7c3e8e5745638fe07e004b",
       "indexedAt": "2026-11-22T04:33:29.253Z",
       "kind": "architecture_module_document",
       "locator": "全文"
@@ -176,7 +176,7 @@
     {
       "id": "module-032",
       "path": "架构/032-YSM联动模块.md",
-      "sha256": "5c1b1d226cfadd52ddae73a29cb5438d029646b72e0a78f4a97bad09dd580c1d",
+      "sha256": "4304a90ab80223fa4e646dacf04ef5e7027deb912bdb6650277066b348d684a1",
       "indexedAt": "2026-11-22T04:33:29.253Z",
       "kind": "architecture_module_document",
       "locator": "全文"
@@ -184,7 +184,7 @@
     {
       "id": "module-033",
       "path": "架构/033-TLM联动模块.md",
-      "sha256": "5c57081a0d0cb3c1b760fc3c2b81e437a1776d53fbb5d77d0b2e01ad3a54f1f4",
+      "sha256": "36dc4d5cfe4a95ee469a11efda64d3fae9592eb0893275703ff0fea55f7d5b06",
       "indexedAt": "2026-11-22T04:33:29.254Z",
       "kind": "architecture_module_document",
       "locator": "§1–3既有外观；§4–11特殊联动设计"
@@ -192,7 +192,7 @@
     {
       "id": "module-002",
       "path": "架构/002-发布契约.md",
-      "sha256": "990bcef2ccbd8f39d4c19a55c7dc88db91f07e0318608a0913557ead64ffe8eb",
+      "sha256": "c8d8b828bb34f4eb7bb7af7010684d24541a6def593f48e0d1eb234cffce03dd",
       "indexedAt": "2026-11-22T04:33:29.255Z",
       "kind": "architecture_module_document",
       "locator": "全文"
@@ -200,7 +200,7 @@
     {
       "id": "module-006",
       "path": "架构/006-Harness模块.md",
-      "sha256": "1e8c185c188c4a15bec4e6e8a23ae2c6dd9674826ba96a46b46651d044b3e85a",
+      "sha256": "140f14d03f7fad8f86aaa1b6457dab0ef65f0f390b3664a0a475edec289a3bb8",
       "indexedAt": "2026-11-22T04:33:29.255Z",
       "kind": "architecture_module_document",
       "locator": "§4 校准与事件监督；§5 派工目标、验收、暂停与恢复"
@@ -208,7 +208,7 @@
     {
       "id": "module-018",
       "path": "架构/018-Stager模块.md",
-      "sha256": "96b1b51e5da1caffab49b552ac46bcc872967a0410b60a4b09d3003770f7f097",
+      "sha256": "45ec94807e4bc4769c6f3fa2d508124bfc667824c7282bead1a925fa697f2b3e",
       "indexedAt": "2026-11-22T04:33:29.256Z",
       "kind": "architecture_module_document",
       "locator": "全文"
@@ -216,7 +216,7 @@
     {
       "id": "module-029",
       "path": "架构/029-模型连接与检索基础模块.md",
-      "sha256": "e1529eaa310d8a78e0fd6fbc390123183bad6aa523de1c30e42819edeefafc1b",
+      "sha256": "8043e08d7d8e476b96714ff7cc25767697ebf6a6f6030973d647c89d2c2b9cfb",
       "indexedAt": "2026-11-22T04:33:29.256Z",
       "kind": "architecture_module_document",
       "locator": "L27–29仅11-06公共桥历史覆盖，不推当前宿主无技能消费者；015为实际注册/目录正文区别唯一定位"
@@ -224,7 +224,7 @@
     {
       "id": "team-construction",
       "path": "施工/045-多角色门禁施工方案-20261107.md",
-      "sha256": "7b307047354a459385cdcffb90d05441bca8251f2d3a52527e2aeb03577910f6",
+      "sha256": "bef3dbae1265a87886cae8b817b7cdca0ea56764ac1a44593837876059d3a9aa",
       "indexedAt": "2026-11-22T04:33:29.257Z",
       "kind": "human_requested_construction_plan",
       "locator": "现行T0–T5 L15–62；频率/方法及目标生命周期只引用006-Harness§4/§5；L64起旧实验仅追溯，不覆盖现行正文"
@@ -233,7 +233,7 @@
       "id": "maid-rdd-plan",
       "path": "施工/052-女仆与RDD特殊联动施工方案-20261110.md",
       "kind": "document",
-      "sha256": "c752d127e0e66963e115f0eaef74cfef4c7b6d33024c1961952c1d2b1a70c3cb",
+      "sha256": "6143b2282ce01d03e97324b0cd3f7f6b33cbf900f464f721ebc00daba2726d5c",
       "indexedAt": "2026-11-22T04:33:29.258Z",
       "locator": "§11.7 L313–323：e826核心50项与09e91本人SELF宿主27项分别限定离线通过，后者候选制品未部署；不签MC壳/provider实际读取、女仆/MSC联动或效果；其余设计沿033"
     },
@@ -241,14 +241,14 @@
       "id": "cycle-training",
       "path": "施工/053-轮回训练施工单.md",
       "kind": "human_requested_construction_plan",
-      "sha256": "22bcffa47c1147c10ca8fa8f9d9aaeef42f8ee913617db72781f9cebab103c13",
+      "sha256": "d83c4f70f363945e4048321d0ad24183ad11c6deb913c60b4d09297e815ba148",
       "indexedAt": "2026-11-22T04:33:29.259Z",
       "locator": "历史/暂停批次：保留设计、分工和原证，不据总览自动开工；当前入口只读 knowledge-index"
     },
     {
       "id": "supervision-054",
       "path": "施工/054-现实摄影和小补丁补全.md",
-      "sha256": "d08e3af37711e1311e92b60eed8a7423b0c278218054aa980d76128d063ad186",
+      "sha256": "479f1a5e56282ef6b7f227a76c807e552c70cec4ed030552a1a393adcaf88ed5",
       "indexedAt": "2026-11-22T04:33:29.260Z",
       "kind": "document",
       "locator": "L24–35 无人值守断点及监督修复施工验收；设计已确认，待施工授权"
@@ -258,7 +258,7 @@
       "path": "施工/055-轮回准备四组并行开发与联调.md",
       "kind": "human_requested_construction_plan",
       "locator": "§0完整能力、§2四包、§3联调；设计/部分实现/待验分层",
-      "sha256": "f148e82ab56b372c892efa0ea14bf1ea6019008bd7bdaa191b51628644ef5c58",
+      "sha256": "42f1de66ee39e41d2e2d23e24c7a70857c17fa3f30ad71fccccf62d833241235",
       "indexedAt": "2026-11-22T04:33:29.261Z"
     }
   ],
@@ -737,7 +737,7 @@
           "version": "architecture-v7",
           "change": "把053§5.4/§5.5和055四组里的外置学习者职责对齐到角色004与026：补准备期/正式轮回职责地图、交付最小集、证据边界和交接；只做可读化，不改原职责内容。",
           "reason": "主人指出角色卡未跟上053/055已写的轮回阶段职责，且现有规则难读、难审核。",
-          "evidence": "角色/004、026 §先看、053 §5.4/§5.5、055 四组；主人2026-11-22本会话直接要求。",
+          "evidence": "内部岗位/004、026 §先看、053 §5.4/§5.5、055 四组；主人2026-11-22本会话直接要求。",
           "previousPurpose": "外置学习当前主力，以完整通关路线积累证据，轮内记盲点与必要绕行、轮后集中改版、下一轮复验；独立组件与场景包并存，内部编程为后续方向。",
           "previousStatus": {
             "design": "user_confirmed_cycle_details",
@@ -937,7 +937,7 @@
           "version": "architecture-v5",
           "change": "补V06原live有限样本与保存链rev24/v224/p7/sub2；保留V05历史定位及未覆盖效果",
           "reason": "一次性导航投影：按003 V06原节与044父结算纠正旧定位；局部证据/任务引用同步，不新增宏观决定",
-          "evidence": "live-verification-v06（实验数据记录/003-2026-11实机验证摘要.md:L343-L359）；施工文档/044-验证先行的任务链与学习闭环总施工单.md §7:L372-L382（docs 7df39fe）",
+          "evidence": "live-verification-v06（内部记录/003-2026-11实机验证摘要.md:L343-L359）；施工/044-验证先行的任务链与学习闭环总施工单.md §7:L372-L382（docs 7df39fe）",
           "previousStatus": {
             "design": "user_confirmed_intent_via_peer",
             "code": "partially_implemented",
@@ -1116,7 +1116,7 @@
           "version": "architecture-v5",
           "change": "补V06原live有限样本与保存链rev24/v224/p7/sub2；保留V05历史定位及未覆盖效果",
           "reason": "一次性导航投影：按003 V06原节与044父结算纠正旧定位；局部证据/任务引用同步，不新增宏观决定",
-          "evidence": "live-verification-v06（实验数据记录/003-2026-11实机验证摘要.md:L343-L359）；施工文档/044-验证先行的任务链与学习闭环总施工单.md §7:L372-L382（docs 7df39fe）",
+          "evidence": "live-verification-v06（内部记录/003-2026-11实机验证摘要.md:L343-L359）；施工/044-验证先行的任务链与学习闭环总施工单.md §7:L372-L382（docs 7df39fe）",
           "previousStatus": {
             "design": "documented",
             "code": "audited_partial_death_preparation_and_sleep_handoff",
@@ -3229,7 +3229,7 @@
           "version": "architecture-v5",
           "change": "限定旧身份样本的UNKNOWN范围，并补044隔离P14/P22施工任务指针；团队五维状态不晋级",
           "reason": "一次性导航投影：按003 V06原节与044父结算纠正旧定位；局部证据/任务引用同步，不新增宏观决定",
-          "evidence": "施工文档/044-验证先行的任务链与学习闭环总施工单.md §7:L372-L382（docs 7df39fe）；V06原件指向实验数据记录/003:L343-L359",
+          "evidence": "施工/044-验证先行的任务链与学习闭环总施工单.md §7:L372-L382（docs 7df39fe）；V06原件指向内部记录/003:L343-L359",
           "previousStatus": {
             "design": "user_confirmed_intent",
             "code": "not_independently_checked",
@@ -3260,7 +3260,7 @@
           "version": "architecture-v5",
           "change": "P14/P22局部候选已正规合入并单次真实预检，保P2实际未发布阻塞；团队整体五维不晋级",
           "reason": "原V06记录互锁与旧digest时间判据已通过独立反例纠偏；局部任务结算不新增宏观决定",
-          "evidence": "施工文档/044-验证先行的任务链与学习闭环总施工单.md §7:L384-L388；harness 8acb7c55；parent-p14-xy-green-20261112.tap；preflight-scope-before/after-20261112原件",
+          "evidence": "施工/044-验证先行的任务链与学习闭环总施工单.md §7:L384-L388；harness 8acb7c55；parent-p14-xy-green-20261112.tap；preflight-scope-before/after-20261112原件",
           "previousStatus": {
             "design": "user_confirmed_intent",
             "code": "not_independently_checked",
@@ -3305,7 +3305,7 @@
           "version": "architecture-v5",
           "change": "纠正任务指针尚未开窗：V07已具加载及铁镐后态，现安全退出受阻而未结算",
           "reason": "将已核原件写回唯一原条目；不以目标blocked代替游戏停止或保存，不新增宏观决定",
-          "evidence": "044§7:L404-L406；实验数据记录/003-2026-11实机验证摘要.md V07:L362-L371；mine-recovery-live-partial-delivery-20261112.json；mine-recovery-live-exit-signature-error-transcript-20261112.json",
+          "evidence": "044§7:L404-L406；内部记录/003-2026-11实机验证摘要.md V07:L362-L371；mine-recovery-live-partial-delivery-20261112.json；mine-recovery-live-exit-signature-error-transcript-20261112.json",
           "previousStatus": {
             "design": "user_confirmed_intent",
             "code": "not_independently_checked",
@@ -3431,7 +3431,7 @@
           "version": "architecture-v5",
           "change": "用户授权的Harness旧债清理：入口、P11、总判/exit、ASK/快照、监督代理判据、watchdog、peer自授权与ACP上下文归属已修源码；插件加载未验。",
           "reason": "本会话直接人类请求先备份并修复已盘点旧债；既有职责的实施纠偏，不新增宏观规则。",
-          "evidence": "Bug修复/008-修复台账-2026-11.md Harness旧债清理；架构意图/006-Harness模块.md 2026-11-13实施状态；harness-repair-20261113-1323/regression-final.tap 121项与gate-regression.tap 61项",
+          "evidence": "Bug修复/008-修复台账-2026-11.md Harness旧债清理；架构/006-Harness模块.md 2026-11-13实施状态；harness-repair-20261113-1323/regression-final.tap 121项与gate-regression.tap 61项",
           "diff": {
             "previousAsOf": "2026-11-13T01:46:08.939Z",
             "scope": "只更新本批Harness修复事实；不覆盖并行产品任务、其余来源新鲜度或团队整体五维状态",
@@ -3484,7 +3484,7 @@
           "change": "最简施工组按1名指挥官+4名干活AI；执行者完工先报并申请实机，决策问题先转做可逆方案/已授权项，确实无可做项时先汇报再暂停自己的目标，由指挥官决定改派、缩范围、恢复或继续停放。",
           "reason": "主人要求补全下属的收尾、实机权限和受阻暂停，避免有目标却空转烧钱，也避免自行停全队或把汇报当暂停。",
           "decision": "D-20261121-TEAM-001",
-          "evidence": "034 §1.9；006-Harness §5；角色/005；角色/006；施工文档/044 三层团队分工段；规则变更日志",
+          "evidence": "034 §1.9；006-Harness §5；角色/005；角色/006；施工/044 三层团队分工段；规则变更日志",
           "previousStatus": {
             "design": "user_confirmed_intent",
             "code": "not_independently_checked",
@@ -3525,7 +3525,7 @@
           "version": "architecture-v7",
           "change": "指挥官职责卡压成接单/开工/校准/派工/验证记录/边界六块；开工只建一条20分钟职责校准闹钟，不建指挥官持久目标；闹钟内容固定为逐项对照职责卡。",
           "reason": "主人指出指挥官卡太乱、AI看不懂不遵守，且接任务后没有设校准闹钟",
-          "evidence": "角色/006-指挥官.md；dsh-team-execute 2.0.0；006 §4/§5",
+          "evidence": "内部岗位/006-指挥官.md；dsh-team-execute 2.0.0；006 §4/§5",
           "previousStatus": {
             "design": "user_confirmed_intent",
             "code": "not_independently_checked",
@@ -3857,7 +3857,7 @@
           "version": "architecture-v5",
           "change": "未来候选：摄像机与行为时间轴关联便于关键剪辑，同时约束存储；不启用相机、不连续全程录像、不打断051。",
           "reason": "2026-11-10 22:49主人经指挥官转述的局部意图",
-          "evidence": "架构意图/017-镜头模块.md：未来候选段；peer消息2026-11-10T14:49:33.073Z",
+          "evidence": "架构/017-镜头模块.md：未来候选段；peer消息2026-11-10T14:49:33.073Z",
           "previousStatus": {
             "design": "user_confirmed_intent",
             "code": "audited_partial",
@@ -4465,7 +4465,7 @@
           "version": "architecture-v5",
           "change": "未来候选：摄像机与行为时间轴关联便于关键剪辑，同时约束存储；不启用相机、不连续全程录像、不打断051。",
           "reason": "2026-11-10 22:49主人经指挥官转述的局部意图",
-          "evidence": "架构意图/017-镜头模块.md：未来候选段；peer消息2026-11-10T14:49:33.073Z",
+          "evidence": "架构/017-镜头模块.md：未来候选段；peer消息2026-11-10T14:49:33.073Z",
           "previousStatus": {
             "design": "user_confirmed_intent",
             "code": "audited_partial",
@@ -4652,7 +4652,7 @@
           "version": "architecture-v7",
           "change": "指挥官改为目标驱动的并行派工：拆独立任务、给下属设可续跑目标并续设；文档范围内可逆动作直接做（含开关游戏、可逆配置、换下属模型/API），只有不可逆才问；新增010通道调度表。",
           "reason": "D-20261122-COMMANDER-002；主人指出旧卡“不设下属目标、不换模型API、过度等授权”偏离实际授权。",
-          "evidence": "角色/006、角色/010、006-Harness§4–5；主人2026-11-22本会话直接要求。",
+          "evidence": "内部岗位/006、角色/010、006-Harness§4–5；主人2026-11-22本会话直接要求。",
           "previousPurpose": "指挥官接单先报范围和执行路线，用户发开工令后再派工与校准；交付收树，主施工做完或无可推进项时转既有摄影和盲点任务，解堵后接回主线。不代用户宣布全队收工。",
           "previousStatus": {
             "design": "user_confirmed_intent",
@@ -5667,7 +5667,7 @@
           "version": "architecture-v5",
           "change": "未来候选：摄像机与行为时间轴关联便于关键剪辑，同时约束存储；不启用相机、不连续全程录像、不打断051。",
           "reason": "2026-11-10 22:49主人经指挥官转述的局部意图",
-          "evidence": "架构意图/017-镜头模块.md：未来候选段；peer消息2026-11-10T14:49:33.073Z",
+          "evidence": "架构/017-镜头模块.md：未来候选段；peer消息2026-11-10T14:49:33.073Z",
           "previousStatus": {
             "design": "documented",
             "code": "audited_partial",
@@ -9084,7 +9084,7 @@
     "sourceDirectory": "架构意图",
     "documents": [
       {
-        "path": "架构意图/030-UI组件模块.md",
+        "path": "架构/030-UI组件模块.md",
         "sourceId": "module-030",
         "lineCount": 27,
         "sha256": "405bf2046cef24f0b18f4f59571c8b41711b23355e9db4833c3edf75f3134154",
@@ -9094,7 +9094,7 @@
         "sourceIndexedAt": "2026-11-08T00:48:00+08:00"
       },
       {
-        "path": "架构意图/032-YSM联动模块.md",
+        "path": "架构/032-YSM联动模块.md",
         "sourceId": "module-032",
         "lineCount": 23,
         "sha256": "c1b0d4750b2bc3d5ea73376ec610cc48eb4dbc159c3316b6732973f2a0caaad1",
@@ -9104,7 +9104,7 @@
         "sourceIndexedAt": "2026-11-08T00:48:00+08:00"
       },
       {
-        "path": "架构意图/033-TLM联动模块.md",
+        "path": "架构/033-TLM联动模块.md",
         "sourceId": "module-033",
         "lineCount": 25,
         "sha256": "5d3e8dd053f4342a26d13645d305268ecf558fb645ca4b45cb5de96f8d9ed6ae",
@@ -9114,7 +9114,7 @@
         "sourceIndexedAt": "2026-11-08T00:48:00+08:00"
       },
       {
-        "path": "架构意图/002-发布契约.md",
+        "path": "架构/002-发布契约.md",
         "sourceId": "module-002",
         "lineCount": 36,
         "sha256": "166de15785e237e44478ffccc9f1cf82cae5bd8855545a010cb4daab3b6edebc",
@@ -9124,7 +9124,7 @@
         "sourceIndexedAt": "2026-11-08T00:48:00+08:00"
       },
       {
-        "path": "架构意图/031-游戏内SelfCompile模块.md",
+        "path": "架构/031-游戏内SelfCompile模块.md",
         "sourceId": "selfcompile",
         "lineCount": 31,
         "sha256": "a6b48a8a9118556d0a08c3860dbc44eb2cc240b48cad736d94a2403ae062c6c9",
@@ -9134,7 +9134,7 @@
         "sourceIndexedAt": "2026-11-06T21:38:00+08:00"
       },
       {
-        "path": "架构意图/001-RDD必读.md",
+        "path": "架构/001-RDD必读.md",
         "sourceId": "overview",
         "lineCount": 62,
         "sha256": "d217231014ca4fa8b4b82cad54ae898f8574d4e0dea3c7626af323ad1f1a376c",
@@ -9144,7 +9144,7 @@
         "sourceIndexedAt": "2026-11-06T15:35:18.311Z"
       },
       {
-        "path": "架构意图/003-实验与门禁.md",
+        "path": "架构/003-实验与门禁.md",
         "sourceId": "experiment",
         "lineCount": 41,
         "sha256": "6304ac6a9cab0673a3846962dd1313acb4c21c2cafcd120ea78d4fd4f7a94a10",
@@ -9154,7 +9154,7 @@
         "sourceIndexedAt": "2026-11-06T15:35:18.311Z"
       },
       {
-        "path": "架构意图/006-Harness模块.md",
+        "path": "架构/006-Harness模块.md",
         "sourceId": "module-006",
         "lineCount": 92,
         "sha256": "9d4245604b4f2d9b02235ebcd02a565b361fa478943490c9b63273d96859fc26",
@@ -9164,7 +9164,7 @@
         "sourceIndexedAt": "2026-11-11T12:36:55.642Z"
       },
       {
-        "path": "架构意图/007-Settlement模块.md",
+        "path": "架构/007-Settlement模块.md",
         "sourceId": "settlement",
         "lineCount": 38,
         "sha256": "d2e304d1d21f401da42ed03273a1db98a74004a048e254231b593b203e8032fc",
@@ -9174,7 +9174,7 @@
         "sourceIndexedAt": "2026-11-06T15:35:18.311Z"
       },
       {
-        "path": "架构意图/008-WorldState模块.md",
+        "path": "架构/008-WorldState模块.md",
         "sourceId": "worldstate",
         "lineCount": 54,
         "sha256": "2dd944284156b86a9175af5ed7082e12cc8b5112572e67c0940f924f8de90ad3",
@@ -9184,7 +9184,7 @@
         "sourceIndexedAt": "2026-11-06T15:35:18.311Z"
       },
       {
-        "path": "架构意图/014-RDD模块.md",
+        "path": "架构/014-RDD模块.md",
         "sourceId": "rdd",
         "lineCount": 56,
         "sha256": "9f6537a074ff744263725513a59b5efbef1ea083237e624a2ca45896796d66f6",
@@ -9194,7 +9194,7 @@
         "sourceIndexedAt": "2026-11-06T15:35:18.311Z"
       },
       {
-        "path": "架构意图/015-学习模块.md",
+        "path": "架构/015-学习模块.md",
         "sourceId": "learner",
         "lineCount": 43,
         "sha256": "d4d30c3b1512a5df01c32f93240785df11448f618fd94dc0b6ded2512834f770",
@@ -9204,7 +9204,7 @@
         "sourceIndexedAt": "2026-11-06T15:35:18.311Z"
       },
       {
-        "path": "架构意图/017-镜头模块.md",
+        "path": "架构/017-镜头模块.md",
         "sourceId": "camera",
         "lineCount": 40,
         "sha256": "038fe35b953051339b74c2bdb6519a08a81c4550003377ecfa51700b4f678912",
@@ -9214,7 +9214,7 @@
         "sourceIndexedAt": "2026-11-06T15:35:18.311Z"
       },
       {
-        "path": "架构意图/018-Stager模块.md",
+        "path": "架构/018-Stager模块.md",
         "sourceId": "module-018",
         "lineCount": 33,
         "sha256": "30765378cbfad5852b90e4a1877485367579dcbbaf90efd49d037abb3bee1239",
@@ -9224,7 +9224,7 @@
         "sourceIndexedAt": "2026-11-08T00:48:00+08:00"
       },
       {
-        "path": "架构意图/025-外部编码线.md",
+        "path": "架构/025-外部编码线.md",
         "sourceId": "coding",
         "lineCount": 44,
         "sha256": "399f6524c4e74cef4c3f76bcb3717b42e74618e125a3c1e7bd9799d1ba3fc5f3",
@@ -9234,7 +9234,7 @@
         "sourceIndexedAt": "2026-11-06T15:35:18.311Z"
       },
       {
-        "path": "架构意图/026-学习线.md",
+        "path": "架构/026-学习线.md",
         "sourceId": "learning",
         "lineCount": 80,
         "sha256": "a90e8d5ce29b5617ce7d0b5c7060a2a6ee6f10167d4fde312bb38c7a3d867fce",
@@ -9244,7 +9244,7 @@
         "sourceIndexedAt": "2026-11-06T15:35:18.311Z"
       },
       {
-        "path": "架构意图/027-任务链线.md",
+        "path": "架构/027-任务链线.md",
         "sourceId": "taskchain",
         "lineCount": 136,
         "sha256": "9531728e017bc667409a3e705887c5531e869eb5e25f8eecb877d351ec924393",
@@ -9254,7 +9254,7 @@
         "sourceIndexedAt": "2026-11-21T03:25:45.000Z"
       },
       {
-        "path": "架构意图/028-Numen引擎与执行层.md",
+        "path": "架构/028-Numen引擎与执行层.md",
         "sourceId": "numen",
         "lineCount": 43,
         "sha256": "54cee2d7bcef5c75595021614f3f2b9088e07deebd5d418e98bacff9e7606d83",
@@ -9264,7 +9264,7 @@
         "sourceIndexedAt": "2026-11-06T15:35:18.311Z"
       },
       {
-        "path": "架构意图/029-模型连接与检索基础模块.md",
+        "path": "架构/029-模型连接与检索基础模块.md",
         "sourceId": "module-029",
         "lineCount": 35,
         "sha256": "481602c674052e2aa8571d721de518b608e991e9aad88c87fb7be57173af88c2",
@@ -9274,7 +9274,7 @@
         "sourceIndexedAt": "2026-11-08T00:48:00+08:00"
       },
       {
-        "path": "架构意图/016-经验模块.md",
+        "path": "架构/016-经验模块.md",
         "sourceId": "experience",
         "lineCount": 47,
         "sha256": "31d244a93f0b626ca2c6a76bed2543cd4481598934865e8180c16cf7f16554bb",
@@ -9284,7 +9284,7 @@
         "sourceIndexedAt": "2026-11-06T15:35:18.311Z"
       },
       {
-        "path": "架构意图/019-ACX模块.md",
+        "path": "架构/019-ACX模块.md",
         "sourceId": "acx",
         "lineCount": 41,
         "sha256": "2079f060d29e45fb6cb1f3525db42bed661f3ea503c4f19e8319275c920e98d8",
@@ -9294,7 +9294,7 @@
         "sourceIndexedAt": "2026-11-06T15:35:18.311Z"
       },
       {
-        "path": "架构意图/034-架构思维导航MCP.md",
+        "path": "架构/034-架构思维导航MCP.md",
         "sourceId": "intent",
         "lineCount": 250,
         "sha256": "6b5cd06aa5c503985d1aa7e84537814b2397e351b4de12042786bd22b91338dd",
@@ -9328,7 +9328,7 @@
       "to": "navigation-v0.1.0",
       "summary": "首版：目标树+parent分层+有限depth 0..2+来源哈希+状态透传；7个工具；决策历史只在图谱静态数据中，边遍历无向。",
       "status": "historical_baseline",
-      "evidence": "架构意图/034-架构思维导航MCP.md §3-4"
+      "evidence": "架构/034-架构思维导航MCP.md §3-4"
     },
     {
       "version": "navigation-v0.2.0",

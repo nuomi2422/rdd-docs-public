@@ -49,6 +49,11 @@
 | arch_decisions / arch_history | 这个模块或版本怎么走到今天 |
 | arch_source | 按来源 ID 读公开正文片段 |
 | arch_integrity | 图谱引用和状态字段是否自洽 |
+| arch_history | 某节点的完整变更时间线 |
+| arch_next | 依据缺口给出的下一步候选（推断，不是授权） |
+| arch_propose | 把补充想法整理成只读草案 |
+| arch_source | 按来源 ID 分页读公开正文 |
+| role_card / my_tasks | 读职责正文、列公开施工任务 |
 
 ## 判断口径
 
