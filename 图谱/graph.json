@@ -128,7 +128,7 @@
     {
       "id": "observationPlan",
       "path": "施工/043-统一观测核心框架与分批施工交付.md",
-      "sha256": "6e19f89828910eda9f9f7cac5a6116d4f173a7d80cfec40dcf5a2128aa0d1ed4",
+      "sha256": "26505802b2be97f5df750d547a490ffffa157fc22d74a0595f3ea674012eddc3",
       "indexedAt": "2026-11-22T04:33:29.243Z",
       "kind": "document",
       "locator": "208-242"
@@ -136,7 +136,7 @@
     {
       "id": "glossary",
       "path": "术语/001-术语表.md",
-      "sha256": "0005e8bad11c5fd99e8019b285266ca3776b36c36b51570f779f62c684cd32be",
+      "sha256": "f6123e50287256594fc897544e0300c00f745765d79a3ae1b69d031426291ca4",
       "indexedAt": "2026-11-22T04:33:29.248Z",
       "kind": "document",
       "locator": "L21–33组织术语、L75–85学习证据分层、L126–130驾驶/语义资产/Stage/版本纠偏；仅定义导航，非现行权限或门禁真源。L69两次退场审计为遗留，不启用旧审计锁；流程按006/034与现行进退游戏入口。本次已读全文/历史变更，旧索引hash未还原"
@@ -241,14 +241,14 @@
       "id": "cycle-training",
       "path": "施工/053-轮回训练施工单.md",
       "kind": "human_requested_construction_plan",
-      "sha256": "d83c4f70f363945e4048321d0ad24183ad11c6deb913c60b4d09297e815ba148",
+      "sha256": "dc9a0595651324600731470896e5e249e0c7869520208c8b20eb52c4d241d3d2",
       "indexedAt": "2026-11-22T04:33:29.259Z",
       "locator": "历史/暂停批次：保留设计、分工和原证，不据总览自动开工；当前入口只读 knowledge-index"
     },
     {
       "id": "supervision-054",
       "path": "施工/054-现实摄影和小补丁补全.md",
-      "sha256": "479f1a5e56282ef6b7f227a76c807e552c70cec4ed030552a1a393adcaf88ed5",
+      "sha256": "c1c120023a3a489583bce1b5a1db7df2fdc66f209f1e5787c29f28cd2253ac80",
       "indexedAt": "2026-11-22T04:33:29.260Z",
       "kind": "document",
       "locator": "L24–35 无人值守断点及监督修复施工验收；设计已确认，待施工授权"
@@ -258,7 +258,7 @@
       "path": "施工/055-轮回准备四组并行开发与联调.md",
       "kind": "human_requested_construction_plan",
       "locator": "§0完整能力、§2四包、§3联调；设计/部分实现/待验分层",
-      "sha256": "42f1de66ee39e41d2e2d23e24c7a70857c17fa3f30ad71fccccf62d833241235",
+      "sha256": "6465de7d2a6e9e83b3350ea7fb6502017ca3bab2bf9a1d4dddfde73b8d0b6c46",
       "indexedAt": "2026-11-22T04:33:29.261Z"
     }
   ],
@@ -5611,7 +5611,7 @@
       "evidenceRefs": [
         "用户本轮报告（2026-11-08）",
         "记录/010-架构导航分层与事实核实-20261108.md",
-        "实验数据记录/003-2026-11实机验证摘要.md#L327-L340"
+        "内部记录/003-2026-11实机验证摘要.md#L327-L340"
       ],
       "history": [
         {
@@ -7923,8 +7923,8 @@
         "single_source_of_truth"
       ],
       "evidenceRefs": [
-        "架构意图/034-架构思维导航MCP.md",
-        "架构意图/035-架构导航图谱.json"
+        "架构/034-架构思维导航MCP.md",
+        "架构/035-架构导航图谱.json"
       ],
       "syncStatus": "graph_and_audit_updated_sidechannel_pending_reload"
     },
@@ -7948,8 +7948,8 @@
         "no_pseudo_pass"
       ],
       "evidenceRefs": [
-        "施工文档/045-多角色门禁施工方案-20261107.md",
-        "架构意图/036-架构巡检记录.jsonl"
+        "施工/045-多角色门禁施工方案-20261107.md",
+        "架构/036-架构巡检记录.jsonl"
       ],
       "syncStatus": "graph_updated_code_deployed_effect_unproven"
     },
@@ -7972,7 +7972,7 @@
         "truthful_evidence"
       ],
       "evidenceRefs": [
-        "架构意图/034-架构思维导航MCP.md"
+        "架构/034-架构思维导航MCP.md"
       ],
       "syncStatus": "graph_updated_code_written_pending_host_reload"
     },
@@ -7995,7 +7995,7 @@
         "no_pseudo_pass"
       ],
       "evidenceRefs": [
-        "施工文档/045-多角色门禁施工方案-20261107.md"
+        "施工/045-多角色门禁施工方案-20261107.md"
       ],
       "syncStatus": "graph_updated_code_deployed_effect_unproven"
     },
@@ -8082,7 +8082,7 @@
         "truthful_evidence"
       ],
       "evidenceRefs": [
-        "施工文档/046-skills接入检索施工单-20261108.md"
+        "施工/046-skills接入检索施工单-20261108.md"
       ],
       "syncStatus": "decision_recorded_implementation_started_effect_unproven",
       "attribution": "该决定由主人口头给出、经另一指挥官会话（[会话已省略]）转述；本会话未直接听到原话，按转述记录并注明来源。"
@@ -8130,7 +8130,7 @@
         "发散后收拢扩展后收敛"
       ],
       "evidenceRefs": [
-        "架构意图/034-架构思维导航MCP.md"
+        "架构/034-架构思维导航MCP.md"
       ],
       "syncStatus": "doc_and_graph_updated_effect_unproven",
       "attribution": "该决定由主人直接告知另一指挥官会话（[会话已省略]）并转述；本会话未直接听到原话，按转述记录。"
@@ -8155,8 +8155,8 @@
         "D-20261107-002 的推进顺序"
       ],
       "evidenceRefs": [
-        "架构意图/034-架构思维导航MCP.md",
-        "施工文档/044-验证先行的任务链与学习闭环总施工单.md"
+        "架构/034-架构思维导航MCP.md",
+        "施工/044-验证先行的任务链与学习闭环总施工单.md"
       ],
       "syncStatus": "intent_recorded_not_implemented",
       "attribution": "主人直接告知另一指挥官会话（[会话已省略]）并转述；本会话未直接听到原话。",
@@ -8187,10 +8187,10 @@
         "未观察不等于未发生"
       ],
       "evidenceRefs": [
-        "架构意图/034-架构思维导航MCP.md",
-        "架构意图/027-任务链线.md",
-        "施工文档/044-验证先行的任务链与学习闭环总施工单.md",
-        "施工文档/049-节点性质维度设计候选-20261108.md"
+        "架构/034-架构思维导航MCP.md",
+        "架构/027-任务链线.md",
+        "施工/044-验证先行的任务链与学习闭环总施工单.md",
+        "施工/049-节点性质维度设计候选-20261108.md"
       ],
       "syncStatus": "intent_and_batch_acceptance_updated_runtime_unverified",
       "attribution": "[会话已省略] 转述主人直接要求（2026-11-08 09:49/09:50/09:52Z）；本会话没有主人原文，不将技术候选当已授权实现。",
@@ -8218,10 +8218,10 @@
         "自主施工及安全边界"
       ],
       "evidenceRefs": [
-        "架构意图/034-架构思维导航MCP.md",
-        "架构意图/027-任务链线.md",
-        "施工文档/044-验证先行的任务链与学习闭环总施工单.md",
-        "施工文档/049-节点性质维度设计候选-20261108.md"
+        "架构/034-架构思维导航MCP.md",
+        "架构/027-任务链线.md",
+        "施工/044-验证先行的任务链与学习闭环总施工单.md",
+        "施工/049-节点性质维度设计候选-20261108.md"
       ],
       "snapshotRef": "git:6d2a59fd024f03ab6874b2847128902380c1deee",
       "syncStatus": "role_documented_graph_updated_runtime_not_created",
@@ -8354,9 +8354,9 @@
         "historical_evidence"
       ],
       "evidenceRefs": [
-        "架构意图/006-Harness模块.md",
-        "架构意图/034-架构思维导航MCP.md",
-        "施工文档/045-多角色门禁施工方案-20261107.md"
+        "架构/006-Harness模块.md",
+        "架构/034-架构思维导航MCP.md",
+        "施工/045-多角色门禁施工方案-20261107.md"
       ],
       "snapshotRef": "git:872290ced36f2db890418212965074db8510b611",
       "attribution": "2026-11-10 12:22 Asia/Shanghai 主人直接向真思考者[会话已省略]-8e61-463f-aedd-93836cab1009口述；具体模块方案由授权AI决定，不冒称主人逐项指定",
@@ -8396,11 +8396,11 @@
         "historical_evidence"
       ],
       "evidenceRefs": [
-        "架构意图/001-RDD必读.md",
-        "架构意图/025-外部编码线.md",
-        "架构意图/026-学习线.md",
-        "架构意图/027-任务链线.md",
-        "架构意图/014-RDD模块.md"
+        "架构/001-RDD必读.md",
+        "架构/025-外部编码线.md",
+        "架构/026-学习线.md",
+        "架构/027-任务链线.md",
+        "架构/014-RDD模块.md"
       ],
       "snapshotRef": "git:d1a5816b445c705e00b3c9318d49016565c42fbf",
       "attribution": "2026-11-10T14:27:33.222Z及14:28:53.808Z 指挥官[会话已省略]转述其会话主人直接口述；思考者未直接听到该轮原话",
@@ -8426,8 +8426,8 @@
         "tlm_existing_appearance"
       ],
       "evidenceRefs": [
-        "架构意图/033-TLM联动模块.md",
-        "施工文档/052-女仆与RDD特殊联动施工方案-20261110.md"
+        "架构/033-TLM联动模块.md",
+        "施工/052-女仆与RDD特殊联动施工方案-20261110.md"
       ],
       "snapshotRef": "git:54e2866f13887b83086e6d13a4df41e2a4db8f8a",
       "attribution": "人类直接来源为[会话已省略]，本导航写者经peer转述并读终稿登记，未将AI工程候选升级人类决定",
@@ -8455,8 +8455,8 @@
         "current_051_work"
       ],
       "evidenceRefs": [
-        "架构意图/033-TLM联动模块.md",
-        "施工文档/052-女仆与RDD特殊联动施工方案-20261110.md"
+        "架构/033-TLM联动模块.md",
+        "施工/052-女仆与RDD特殊联动施工方案-20261110.md"
       ],
       "snapshotRef": "git:bc7d3b6",
       "attribution": "主人在[会话已省略]直接确认，思考者经该会话peer转述并读已提交正文；不是本导航会话直接原话",
@@ -8488,8 +8488,8 @@
         "existing_experience_skills_and_models"
       ],
       "evidenceRefs": [
-        "施工文档/044-验证先行的任务链与学习闭环总施工单.md",
-        "架构意图/034-架构思维导航MCP.md"
+        "施工/044-验证先行的任务链与学习闭环总施工单.md",
+        "架构/034-架构思维导航MCP.md"
       ],
       "snapshotRef": "git:cc32155338e9c7a329f5a9bcf013411006b001b6",
       "attribution": "主人在指挥官[会话已省略]-6503-4af3-a9d9-9f9061556bc3当轮直接指示，2026-11-11 Asia/Shanghai；同档重开为受控介入，不冒自然开局。",
@@ -8517,8 +8517,8 @@
         "current_product_schedule"
       ],
       "evidenceRefs": [
-        "架构意图/006-Harness模块.md",
-        "架构意图/034-架构思维导航MCP.md"
+        "架构/006-Harness模块.md",
+        "架构/034-架构思维导航MCP.md"
       ],
       "attribution": "主人在[会话已省略]-5f97-4a63-b0a0-655da9185c60本轮直接请求；指挥官12:32:54Z回信确认新卡已实际读取。",
       "syncStatus": "documents_navigation_synced_reminder_configuration_checked_long_term_effect_unproven"
@@ -8548,9 +8548,9 @@
         "learning_acceptance_depends_on_reliable_samples"
       ],
       "evidenceRefs": [
-        "施工文档/044-验证先行的任务链与学习闭环总施工单.md",
-        "架构意图/027-任务链线.md",
-        "架构意图/034-架构思维导航MCP.md"
+        "施工/044-验证先行的任务链与学习闭环总施工单.md",
+        "架构/027-任务链线.md",
+        "架构/034-架构思维导航MCP.md"
       ],
       "attribution": "主人在本思考者会话直接要求；既有进度按记录核对，本次未重新实机验证。",
       "syncStatus": "documents_navigation_synced_runtime_not_reverified"
@@ -8592,11 +8592,11 @@
         "versioned_history"
       ],
       "evidenceRefs": [
-        "架构意图/026-学习线.md",
-        "架构意图/027-任务链线.md",
-        "架构意图/014-RDD模块.md",
-        "架构意图/034-架构思维导航MCP.md",
-        "施工文档/044-验证先行的任务链与学习闭环总施工单.md"
+        "架构/026-学习线.md",
+        "架构/027-任务链线.md",
+        "架构/014-RDD模块.md",
+        "架构/034-架构思维导航MCP.md",
+        "施工/044-验证先行的任务链与学习闭环总施工单.md"
       ],
       "snapshotRef": "git:17a3d3d",
       "attribution": "2026-11-12深夜主人本会话直接完整口述，2026-11-13落档；确认既有自动自治/内外代做/按需检索，纠正旧相冲突细则，不升宏观版本。",
@@ -8640,10 +8640,10 @@
         "truthful_evidence"
       ],
       "evidenceRefs": [
-        "施工文档/053-轮回训练施工单.md",
-        "架构意图/026-学习线.md",
-        "架构意图/019-ACX模块.md",
-        "架构意图/017-镜头模块.md"
+        "施工/053-轮回训练施工单.md",
+        "架构/026-学习线.md",
+        "架构/019-ACX模块.md",
+        "架构/017-镜头模块.md"
       ],
       "attribution": "2026-11-15 15:34+08主人在思考者会话直接口述；LH批次和接口为授权范围内AI决策。",
       "syncStatus": "documents_graph_updated_implementation_not_claimed"
@@ -8669,9 +8669,9 @@
         "current_artifacts"
       ],
       "evidenceRefs": [
-        "施工文档/044-验证先行的任务链与学习闭环总施工单.md",
-        "施工文档/053-轮回训练施工单.md",
-        "架构意图/034-架构思维导航MCP.md"
+        "施工/044-验证先行的任务链与学习闭环总施工单.md",
+        "施工/053-轮回训练施工单.md",
+        "架构/034-架构思维导航MCP.md"
       ],
       "attribution": "2026-11-15 17:07+08 主人在新指挥官父会话 [会话已省略] 直接原话，经该会话转交本会话；本会话未亲听，只做文档/图谱登记。",
       "syncStatus": "documents_graph_updated_implementation_not_claimed"
@@ -8702,9 +8702,9 @@
         "offline_deployment_runtime_effect_separation"
       ],
       "evidenceRefs": [
-        "施工文档/044-验证先行的任务链与学习闭环总施工单.md#L678-L680",
-        "施工文档/053-轮回训练施工单.md#L151-L166",
-        "架构意图/034-架构思维导航MCP.md#L48"
+        "施工/044-验证先行的任务链与学习闭环总施工单.md#L678-L680",
+        "施工/053-轮回训练施工单.md#L151-L166",
+        "架构/034-架构思维导航MCP.md#L48"
       ],
       "attribution": "主人在父指挥官会话[会话已省略]最新直接要求，经2026-11-16协作消息转交；本会话未亲听，044为唯一排期正文，不在图谱复制完整顺序。",
       "syncStatus": "navigation_synced_combined_candidate_verification_pending_no_deployment_or_live_claim"
@@ -8751,11 +8751,11 @@
         "174_independent_authorized_scope"
       ],
       "evidenceRefs": [
-        "架构意图/034-架构思维导航MCP.md",
-        "施工文档/053-轮回训练施工单.md",
-        "架构意图/008-WorldState模块.md",
-        "架构意图/019-ACX模块.md",
-        "架构意图/028-Numen引擎与执行层.md"
+        "架构/034-架构思维导航MCP.md",
+        "施工/053-轮回训练施工单.md",
+        "架构/008-WorldState模块.md",
+        "架构/019-ACX模块.md",
+        "架构/028-Numen引擎与执行层.md"
       ],
       "attribution": "本会话主人直接口述、完整Word及后续明确暂不开工程；批次和接口划分为AI工程设计。",
       "restorePoint": "docs e7b2368bf00e3cac504cc085b81fde300eba3fc4",
@@ -8793,10 +8793,10 @@
         "documentation_only_hold"
       ],
       "evidenceRefs": [
-        "架构意图/034-架构思维导航MCP.md",
-        "施工文档/053-轮回训练施工单.md",
-        "架构意图/019-ACX模块.md",
-        "架构意图/026-学习线.md"
+        "架构/034-架构思维导航MCP.md",
+        "施工/053-轮回训练施工单.md",
+        "架构/019-ACX模块.md",
+        "架构/026-学习线.md"
       ],
       "attribution": "本会话主人完整Word及后续直接澄清；具体字段、状态映射、检测/恢复与批次安排为AI实现设计，非实测结论。",
       "restorePoint": "docs 3731ec68204088c3c645b93ff49a574f872f83ae；修改前003实验记录有其他会话更新，不覆盖",
@@ -8828,9 +8828,9 @@
         "源码部署实机效果分层"
       ],
       "evidenceRefs": [
-        "架构意图/034-架构思维导航MCP.md",
-        "施工文档/053-轮回训练施工单.md",
-        "架构意图/006-Harness模块.md"
+        "架构/034-架构思维导航MCP.md",
+        "施工/053-轮回训练施工单.md",
+        "架构/006-Harness模块.md"
       ],
       "attribution": "主人在指挥官会话直接确认053实施顺序、持久目标、停放与收尾及MCP导航维护。",
       "restorePoint": "docs 60737a9（仅本轮角色/图谱范围；不覆盖其他在飞改动）",
@@ -8854,8 +8854,8 @@
         "目标初次激活、原节流范围、正常回执、生存保护、主人暂停、外部监督、053不复工"
       ],
       "evidenceRefs": [
-        "架构意图/027-任务链线.md",
-        "施工文档/054-现实摄影和小补丁补全.md"
+        "架构/027-任务链线.md",
+        "施工/054-现实摄影和小补丁补全.md"
       ],
       "attribution": "主人本会话直接提出并确认（我同意你的方案）；只确认设计。",
       "restorePoint": "改前 Git blobs：027 4119ed2b23323252de9bcb844a47f89aa7254acc；054 4625d502fa6369d328f73cabba5bd525340b5fb7；035 43c14ff882c405fb92a5ed70c240fa4169189e85。",
@@ -8885,9 +8885,9 @@
         "owner_finish_authority"
       ],
       "evidenceRefs": [
-        "架构意图/034-架构思维导航MCP.md",
-        "架构意图/006-Harness模块.md",
-        "施工文档/044-验证先行的任务链与学习闭环总施工单.md"
+        "架构/034-架构思维导航MCP.md",
+        "架构/006-Harness模块.md",
+        "施工/044-验证先行的任务链与学习闭环总施工单.md"
       ],
       "attribution": "主人在本会话直接口述多AI内部岗位定义修改要求；只确认设计，未确认宿主权限接线或运行效果。",
       "syncStatus": "documents_and_graph_updated_runtime_effect_not_reassessed"
@@ -8915,9 +8915,9 @@
         "公开与私有仓边界"
       ],
       "evidenceRefs": [
-        "架构意图/006-Harness模块.md",
-        "架构意图/042-Harness导航图谱.json",
-        "架构意图/043-Agene导航图谱.json"
+        "架构/006-Harness模块.md",
+        "架构/042-Harness导航图谱.json",
+        "架构/043-Agene导航图谱.json"
       ],
       "attribution": "主人2026-11-21本会话直接说明及纠正；MCP实现选择为AI工程设计，宿主动态工具卸载未证。",
       "restorePoint": "本轮修改前各文件工作树/Git blobs；其他会话改动不覆盖",
@@ -8949,8 +8949,8 @@
         "architecture-v7"
       ],
       "evidenceRefs": [
-        "施工文档/055-轮回准备四组并行开发与联调.md",
-        "架构意图/034-架构思维导航MCP.md"
+        "施工/055-轮回准备四组并行开发与联调.md",
+        "架构/034-架构思维导航MCP.md"
       ]
     },
     {
@@ -8978,7 +8978,7 @@
         "现有岗位权限"
       ],
       "evidenceRefs": [
-        "架构意图/006-Harness模块.md"
+        "架构/006-Harness模块.md"
       ],
       "attribution": "主人2026-11-22本会话直接要求；具体命令实现为AI工程选择。",
       "syncStatus": "documents_and_command_updated_install_and_unit_tests_pass_real_session_end_to_end_unverified"
@@ -9008,7 +9008,7 @@
         "不可逆才审批"
       ],
       "evidenceRefs": [
-        "架构意图/006-Harness模块.md"
+        "架构/006-Harness模块.md"
       ],
       "attribution": "主人2026-11-22本会话直接要求；具体文档结构和目标续设写法为AI工程整理。",
       "syncStatus": "documents_and_command_prompt_updated_unit_tests_pass_runtime_capability_unverified"
