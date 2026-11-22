@@ -16,7 +16,7 @@
     {
       "id": "intent",
       "path": "架构/034-架构思维导航MCP.md",
-      "sha256": "556c91fe8308e61cb5b37f887ca0b7e04ab46966fc131123490a3897cebf61f0",
+      "sha256": "5a8a4caa6227a56dcacc02dd62be9a54adac865671b19b94bf162f23092c3940",
       "indexedAt": "2026-11-22T04:33:29.230Z",
       "kind": "architecture_current_document",
       "locator": "§1.7 执行重整及 2026-11-19 后继决定；§1.8 通关轮回；§3 导航读法"
@@ -24,7 +24,7 @@
     {
       "id": "overview",
       "path": "架构/001-RDD必读.md",
-      "sha256": "66e0a70110de41a59d22fba510e4631ecb8bc4f614da7082b76604b58abc5ebd",
+      "sha256": "f857bbf971c7d8542aa26e5fef42b98790fd8186bdcdcd77fe8db2b4a46b973f",
       "indexedAt": "2026-11-22T04:33:29.231Z",
       "kind": "document",
       "locator": "2026-11-17执行层重整补充及原基线正文；2026-11-18当前实施边界见053 §0/§6，历史源码/部署/效果不升级"
@@ -32,7 +32,7 @@
     {
       "id": "coding",
       "path": "架构/025-外部编码线.md",
-      "sha256": "564004d63b5055751090da7fc2784047a44f4031cf1d388ad36058aee5bfe984",
+      "sha256": "0a687a88e1ea54ed1ed0eab89434cb4137c2efd16811548c286beb0876db5361",
       "indexedAt": "2026-11-22T04:33:29.232Z",
       "kind": "document",
       "locator": "2026-11-17执行层重整补充及原基线正文"
@@ -40,7 +40,7 @@
     {
       "id": "learning",
       "path": "架构/026-学习线.md",
-      "sha256": "7e2451833ea586b971635664357a00ed378967f1e587e31f90b4046a7ddde789",
+      "sha256": "7bf30a262082536e3fd11b36a91b34184b4263a7cdbf6944da25ba7906ca8c8d",
       "indexedAt": "2026-11-22T04:33:29.232Z",
       "kind": "document",
       "locator": "§先看外置学习者职责地图；§自动运行完整闭环；学习单位到行为反馈"
@@ -48,7 +48,7 @@
     {
       "id": "learning-current-audit",
       "path": "施工/046-skills接入检索施工单-20261108.md",
-      "sha256": "9055677106a2e4d6a3f20101035670a47222adde2007c81264473f7421119ab1",
+      "sha256": "243a64e159f8b8ea5054bbac8db99212c884c549c066c38ef4c961191ea6bcb5",
       "indexedAt": "2026-11-22T04:33:29.233Z",
       "kind": "document",
       "locator": "L15–23整单端到端验收出口及已存在接线；L39–50为2026-11-12主人教学/技能可用性历史快照，仅该时点目录/正文/检索与未证入口，不据本次索引签自然采用或效果"
@@ -56,7 +56,7 @@
     {
       "id": "taskchain",
       "path": "架构/027-任务链线.md",
-      "sha256": "13429cff4aba9c4f50a3b8d4b07590677a5c9be57ceab7ba845c78ae79524f6a",
+      "sha256": "889dd2299acc8c09c3a630c3fc61d38dbca337bd979723d80d16d115cc872b35",
       "indexedAt": "2026-11-22T04:33:29.234Z",
       "kind": "document",
       "locator": "先看摘要+任务/AC/身体所有权、why送达、完成判据；L97–104游戏内监督决定"
@@ -64,7 +64,7 @@
     {
       "id": "rdd",
       "path": "架构/014-RDD模块.md",
-      "sha256": "f63dda6427f395c1c0a6cee7a630794a7dc10e091ec968dec4d11c4ede880440",
+      "sha256": "52dadec4ae48337617e8a25a8eee998eca3bc1f8991b0e6f6508b0c7159d6462",
       "indexedAt": "2026-11-22T04:33:29.235Z",
       "kind": "document",
       "locator": "L49–51本轮职责定位及008唯一证据入口；旧源码审计保原时点，不签新发布/实机"
@@ -72,7 +72,7 @@
     {
       "id": "settlement",
       "path": "架构/007-Settlement模块.md",
-      "sha256": "44f139caa726bf5e44bf5354cf309839717008af4a7cb68b350cf34d89c5f8ee",
+      "sha256": "59b5322ebc793d2139a1004829c6aa41b894c370c3967edd8f38940cc3db665f",
       "indexedAt": "2026-11-22T04:33:29.235Z",
       "kind": "document",
       "locator": "全文"
@@ -80,7 +80,7 @@
     {
       "id": "worldstate",
       "path": "架构/008-WorldState模块.md",
-      "sha256": "2939d7b5843699e7011d5767099e57a155ba744c7adbd76d193ef36a89367f47",
+      "sha256": "08643c2b5a3acd684e0d19cc9d956e19f0b0644fcb34b513aee054ddd18f3b77",
       "indexedAt": "2026-11-22T04:33:29.236Z",
       "kind": "document",
       "locator": "末节「刷新迟到与到期瞬间」：刷新回执与公开读取的有效期；当前批次见053 §6"
@@ -88,7 +88,7 @@
     {
       "id": "learner",
       "path": "架构/015-学习模块.md",
-      "sha256": "e9b22b56e3c332de66fb3bf3d2a6f32c549075b980607eb63fde373a53220f08",
+      "sha256": "6ad3e2f3871de1d6b0fb1474767538b5446a069d440a5e1475cbad7d75d225eb",
       "indexedAt": "2026-11-22T04:33:29.236Z",
       "kind": "document",
       "locator": "L25起当前接线与历史边界：双端contributor/正文resolver与二跳realDepth+gateDepth已在；11-06浅队列/未接技能桥为历史原证，真实采用/恢复效果沿046/008逐票核"
@@ -96,7 +96,7 @@
     {
       "id": "experience",
       "path": "架构/016-经验模块.md",
-      "sha256": "81cfeb5650e08a313fedd179be37b6d18d52b69788da8716d009fa4d876c45da",
+      "sha256": "d203cfb3910fa850f8547297e98ce772072fa7bef15fc170bc5a1acb3bbfac09",
       "indexedAt": "2026-11-22T04:33:29.237Z",
       "kind": "document",
       "locator": "L15–31职责/资格/交付分层；L33–45仅2026-11-06主树44609e454的检索、展开与IO历史核查。L27无人工审批按034§1.2/1.5及026§自动试用后复核读取，不把实机有效前置到首次试用；本次重读全文/历史变更但未还原旧索引hash，不签当前源码或效果"
@@ -104,7 +104,7 @@
     {
       "id": "acx",
       "path": "架构/019-ACX模块.md",
-      "sha256": "92430a3b0c27c9e393e2bcd0cce695ffcf20ad142e3e583a02d607df67aff5b5",
+      "sha256": "9b015e21dbed37958aa5d268c1f64c2d748cb74859c76ab6cf7e3c701ab57df7",
       "indexedAt": "2026-11-22T04:33:29.237Z",
       "kind": "document",
       "locator": "末节「恢复时如何判定能否再派发」：宿主派发、断点与子脚本版本；当前批次见053 §6"
@@ -112,7 +112,7 @@
     {
       "id": "numen",
       "path": "架构/028-Numen引擎与执行层.md",
-      "sha256": "c3ec51a797d6eba074aae2713fe19b66fb213cba22e452d6f94fb988330322d5",
+      "sha256": "3d5cd428b6b32c2209497a17ca54e9173ed280d7db622f62afeedb45ee7f5fda",
       "indexedAt": "2026-11-22T04:33:29.238Z",
       "kind": "document",
       "locator": "2026-11-17执行重整与D-20261117-CYCLE-002澄清；既有基线保留；2026-11-18当前实施边界见053 §0/§6，历史源码/部署/效果不升级"
@@ -128,7 +128,7 @@
     {
       "id": "observationPlan",
       "path": "施工/043-统一观测核心框架与分批施工交付.md",
-      "sha256": "26505802b2be97f5df750d547a490ffffa157fc22d74a0595f3ea674012eddc3",
+      "sha256": "a8a8fdbe2651e40607fe324ea56f1b3530ebff45f3ba08be1e8f6a19c5a2217b",
       "indexedAt": "2026-11-22T04:33:29.243Z",
       "kind": "document",
       "locator": "208-242"
@@ -136,7 +136,7 @@
     {
       "id": "glossary",
       "path": "术语/001-术语表.md",
-      "sha256": "f6123e50287256594fc897544e0300c00f745765d79a3ae1b69d031426291ca4",
+      "sha256": "d33e8073b433a44f33e52cf50ccb0bb95686d6782d13d31e65eff4fdb9046f40",
       "indexedAt": "2026-11-22T04:33:29.248Z",
       "kind": "document",
       "locator": "L21–33组织术语、L75–85学习证据分层、L126–130驾驶/语义资产/Stage/版本纠偏；仅定义导航，非现行权限或门禁真源。L69两次退场审计为遗留，不启用旧审计锁；流程按006/034与现行进退游戏入口。本次已读全文/历史变更，旧索引hash未还原"
@@ -144,7 +144,7 @@
     {
       "id": "camera",
       "path": "架构/017-镜头模块.md",
-      "sha256": "49402c43bd5123a99e5b45c1f97401853805907e7cfb754092cd61e0f5a1f5f5",
+      "sha256": "14e13b7411dfdd4ac8e8fdfe057ae434b22fe8ee50849ebe0f212c31cb2274ce",
       "indexedAt": "2026-11-22T04:33:29.248Z",
       "kind": "document",
       "locator": "D-20261115-001现行补充及原正文；历史核验按原时点，本次不升级效果"
@@ -152,7 +152,7 @@
     {
       "id": "experiment",
       "path": "架构/003-实验与门禁.md",
-      "sha256": "d8d9ef54562fae36cd5575f6579683d98d7909e6d29c00085c6e06db906f52d1",
+      "sha256": "d70f5034a0bddf04a220b48c889ba578b859e8b82828e72154d79cb376e19a62",
       "indexedAt": "2026-11-22T04:33:29.248Z",
       "kind": "document",
       "locator": "2026-11-06核实"
@@ -161,7 +161,7 @@
       "id": "master-plan",
       "path": "施工/044-验证先行的任务链与学习闭环总施工单.md",
       "kind": "human_requested_construction_plan",
-      "sha256": "5b3b111eb8d2e1b8839a45a9d5f68a2f24ae5f170860ecd8a06cc89a5f0e893c",
+      "sha256": "beb9719690a81d13355030f5aa85981473e2b91a862e31d0bd3e8063542b2d8f",
       "indexedAt": "2026-11-22T04:33:29.253Z",
       "locator": "L678–684 总施工入口，053 现行顺序只指053 §0；旧174排期仅历史"
     },
@@ -184,7 +184,7 @@
     {
       "id": "module-033",
       "path": "架构/033-TLM联动模块.md",
-      "sha256": "36dc4d5cfe4a95ee469a11efda64d3fae9592eb0893275703ff0fea55f7d5b06",
+      "sha256": "6f24fada9b21c14621b23380cee39ca5d927dc98a0bae17f68e5f3a5bc8563aa",
       "indexedAt": "2026-11-22T04:33:29.254Z",
       "kind": "architecture_module_document",
       "locator": "§1–3既有外观；§4–11特殊联动设计"
@@ -200,7 +200,7 @@
     {
       "id": "module-006",
       "path": "架构/006-Harness模块.md",
-      "sha256": "140f14d03f7fad8f86aaa1b6457dab0ef65f0f390b3664a0a475edec289a3bb8",
+      "sha256": "c607cd684173aff51e60b098ddc3546ad56490f1b60e358e0cc4bd01655b55cc",
       "indexedAt": "2026-11-22T04:33:29.255Z",
       "kind": "architecture_module_document",
       "locator": "§4 校准与事件监督；§5 派工目标、验收、暂停与恢复"
@@ -208,7 +208,7 @@
     {
       "id": "module-018",
       "path": "架构/018-Stager模块.md",
-      "sha256": "45ec94807e4bc4769c6f3fa2d508124bfc667824c7282bead1a925fa697f2b3e",
+      "sha256": "17ac0d34a63fc6376e4c0cea8d7e416e24da39a48dfa702286f3b214da1afa1b",
       "indexedAt": "2026-11-22T04:33:29.256Z",
       "kind": "architecture_module_document",
       "locator": "全文"
@@ -216,7 +216,7 @@
     {
       "id": "module-029",
       "path": "架构/029-模型连接与检索基础模块.md",
-      "sha256": "8043e08d7d8e476b96714ff7cc25767697ebf6a6f6030973d647c89d2c2b9cfb",
+      "sha256": "e0359d835990dcacab3a58b76976768507e1e53cd4e6aa93767047829f5afa31",
       "indexedAt": "2026-11-22T04:33:29.256Z",
       "kind": "architecture_module_document",
       "locator": "L27–29仅11-06公共桥历史覆盖，不推当前宿主无技能消费者；015为实际注册/目录正文区别唯一定位"
@@ -224,7 +224,7 @@
     {
       "id": "team-construction",
       "path": "施工/045-多角色门禁施工方案-20261107.md",
-      "sha256": "bef3dbae1265a87886cae8b817b7cdca0ea56764ac1a44593837876059d3a9aa",
+      "sha256": "81f8757324a4b9760c2a8e72d460efce1ccbed039369e61af0f904530df89298",
       "indexedAt": "2026-11-22T04:33:29.257Z",
       "kind": "human_requested_construction_plan",
       "locator": "现行T0–T5 L15–62；频率/方法及目标生命周期只引用006-Harness§4/§5；L64起旧实验仅追溯，不覆盖现行正文"
@@ -233,7 +233,7 @@
       "id": "maid-rdd-plan",
       "path": "施工/052-女仆与RDD特殊联动施工方案-20261110.md",
       "kind": "document",
-      "sha256": "6143b2282ce01d03e97324b0cd3f7f6b33cbf900f464f721ebc00daba2726d5c",
+      "sha256": "3e182d5d7e5449d4d3d7f1566ce2e1baacc81cbd38bd56241d3f61cd8bd4018b",
       "indexedAt": "2026-11-22T04:33:29.258Z",
       "locator": "§11.7 L313–323：e826核心50项与09e91本人SELF宿主27项分别限定离线通过，后者候选制品未部署；不签MC壳/provider实际读取、女仆/MSC联动或效果；其余设计沿033"
     },
@@ -241,14 +241,14 @@
       "id": "cycle-training",
       "path": "施工/053-轮回训练施工单.md",
       "kind": "human_requested_construction_plan",
-      "sha256": "dc9a0595651324600731470896e5e249e0c7869520208c8b20eb52c4d241d3d2",
+      "sha256": "a3cd9673cbba45e9e56ce4fdb53c196a20fd826c3dc5418e30be3974cce17578",
       "indexedAt": "2026-11-22T04:33:29.259Z",
       "locator": "历史/暂停批次：保留设计、分工和原证，不据总览自动开工；当前入口只读 knowledge-index"
     },
     {
       "id": "supervision-054",
       "path": "施工/054-现实摄影和小补丁补全.md",
-      "sha256": "c1c120023a3a489583bce1b5a1db7df2fdc66f209f1e5787c29f28cd2253ac80",
+      "sha256": "e96eaf2437e051f2ba3cdbb49c510eb539dd5ca39164f22642e1b024f04c419e",
       "indexedAt": "2026-11-22T04:33:29.260Z",
       "kind": "document",
       "locator": "L24–35 无人值守断点及监督修复施工验收；设计已确认，待施工授权"
@@ -258,7 +258,7 @@
       "path": "施工/055-轮回准备四组并行开发与联调.md",
       "kind": "human_requested_construction_plan",
       "locator": "§0完整能力、§2四包、§3联调；设计/部分实现/待验分层",
-      "sha256": "6465de7d2a6e9e83b3350ea7fb6502017ca3bab2bf9a1d4dddfde73b8d0b6c46",
+      "sha256": "9a2f99aa175edfaf7e0c3d954418ad9aed5b5457527342832599e6306996bfd4",
       "indexedAt": "2026-11-22T04:33:29.261Z"
     }
   ],
@@ -3107,7 +3107,7 @@
       "id": "harness",
       "title": "RDD Harness：AGENTS.md 指针与命令工作流",
       "parent": "coding",
-      "purpose": "AGENTS.md及子文件为核心，命令工作流为辅助；指挥官接单先报计划并建20分钟职责校准闹钟，不建自己的持久目标，靠闹钟对照职责卡纠偏续接。四个稳定内容指纹按需组装，工具与项目地图保持懒加载。",
+      "purpose": "AGENTS.md及子文件为核心，命令工作流为辅助；核心是从 AGENTS.md 延伸出的整棵巨核，DSH 是执行本体，Harness 是建在其上的工程脚手架。分层指针让人能直接打开任意一层维护；权限、凭据、上传、门禁与不可逆动作这最后一道黄线由人管住；确定性指令入口与 ACP 用于防模型降智。四个稳定内容指纹按需组装，工具与项目地图保持懒加载。",
       "intentKind": "document_summary",
       "sources": [
         "coding",
@@ -3116,7 +3116,7 @@
         "team-construction",
         "master-plan"
       ],
-      "asOf": "2026-11-22T07:30:00+08:00",
+      "asOf": "2026-11-22T17:50:00+08:00",
       "status": {
         "design": "user_confirmed_intent",
         "code": "not_independently_checked",

@@ -5,7 +5,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
-export const hash = text => crypto.createHash('sha256').update(text).digest('hex');
+// 换行统一成 LF 再算哈希：同一份公开正文在 Windows/macOS 上得到相同指纹，不因检出方式漂移。
+export const hash = text => crypto.createHash('sha256').update(text.replace(/\r\n/g, '\n')).digest('hex');
 const read = file => fs.readFileSync(file, 'utf8').replace(/^\uFEFF/, '');
 const STATUS_DIMENSIONS = ['design', 'code', 'deployment', 'runtime', 'effect'];
 const IMPLEMENTATION_STATES = new Set(['implemented', 'partial', 'planned', 'not_checked', 'unknown', 'deprecated', 'not_applicable']);
