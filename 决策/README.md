@@ -1,6 +1,6 @@
 # 决策记录（公开摘要）
 
-回仓库首页（内部记录未公开） · 架构图谱（内部记录未公开） · [当前状态](https://github.com/nuomi2422/restart-developmental-doer/blob/master/STATUS.md)
+[回仓库首页](../README.md) · [架构图谱](../图谱/README.md) · [当前状态](https://github.com/nuomi2422/restart-developmental-doer/blob/master/STATUS.md)
 
 > 从公开架构图谱的决策历史导出。每条保留编号、版本、类型、时间、摘要、取代/保留范围与证据位置；**内部会话、个人调度和未公开原证已省略**。决策记录说明设计意图，不证明代码、部署或世界效果已完成。
 

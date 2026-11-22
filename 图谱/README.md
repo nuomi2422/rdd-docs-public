@@ -1,6 +1,6 @@
 # 架构图谱与可运行 MCP（公开版）
 
-回仓库首页（内部记录未公开） · 决策记录（内部记录未公开） · [当前状态](https://github.com/nuomi2422/restart-developmental-doer/blob/master/STATUS.md)
+[回仓库首页](../README.md) · [决策记录](../决策/README.md) · [当前状态](https://github.com/nuomi2422/restart-developmental-doer/blob/master/STATUS.md)
 
 **这是什么：** 一套只读的架构导航。它把 RDD 的总目标、四线、模块职责、关系、生命周期状态和决策，整理成一张机器可查的图谱；人和 AI 都能按需展开，不必先读完整文档。
 
@@ -8,8 +8,8 @@
 
 ## 直接看（不需要安装）
 
-- graph.json（内部记录未公开）：46 个节点、123 条关系、40 条决策、31 个可公开来源。
-- 决策记录（内部记录未公开）：按编号读设计变化与取代关系。
+- [graph.json](graph.json)：46 个节点、123 条关系、40 条决策、31 个可公开来源。
+- [决策记录](../决策/README.md)：按编号读设计变化与取代关系。
 - 图谱里的来源路径指向本仓公开正文；标注“内部原证未公开”的，说明原记录不在公开范围。
 
 ## 本机运行 MCP
