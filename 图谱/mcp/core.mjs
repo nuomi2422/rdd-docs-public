@@ -157,6 +157,8 @@ export class Architecture {
     }
     const sourceStates=[...this.sources.keys()].map(id=>this.source(id));
     const freshness={unchanged:0,changed:0,unavailable:0}; for(const s of sourceStates) freshness[s.freshness]=(freshness[s.freshness]||0)+1;
+    // 2026-11-24: 来源正文不可读时不得只报绿色；公开投影必须让不可用来源显式进入issues。
+    if(freshness.unavailable>0) issues.push({kind:'source_unavailable',count:freshness.unavailable,note:'来源路径在公开仓不可读；修映射或移出不可公开来源'});
     const coverage=this.graph.moduleCoverage?.documents||[];
     return {schemaVersion:this.graph.schemaVersion,revision:this.revision,architectureVersion:this.graph.architectureVersion,navigationService:this.graph.navigationService||null,
       counts:{nodes:this.graph.nodes.length,edges:this.graph.edges.length,sources:this.sources.size,decisions:history.length,moduleDocuments:coverage.length},
