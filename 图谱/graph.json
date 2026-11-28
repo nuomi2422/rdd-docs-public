@@ -4,8 +4,8 @@
  "kind": "navigation-index",
  "status": "current",
  "ownerRole": "architecture-maintainer",
- "visibility": "internal",
- "updatedAt": "2026-11-23T22:45:00+08:00",
+ "visibility": "public",
+ "updatedAt": "2026-11-28T12:00:00+08:00",
  "verifiedAt": null,
  "supersedes": [],
  "evidenceRefs": [
@@ -16,7 +16,7 @@
   {
    "id": "intent",
    "path": "架构/034-架构思维导航MCP.md",
-   "sha256": "3c41fdd3be5471efc8bd73b0b6957e62689fd2cd30be90e531669ea6e04a9820",
+   "sha256": "b0b09c1a545fe716c5ee5bc8677285d5e28469149a2a2b3eb25c17b5d9589629",
    "indexedAt": "2026-11-23T22:45:00+08:00",
    "kind": "architecture_current_document",
    "locator": "D-20261123-PRETRAIN-002及原决策链"
@@ -24,7 +24,7 @@
   {
    "id": "overview",
    "path": "架构/001-RDD必读.md",
-   "sha256": "11b712244eebf03f9b5ade58e760fc5dc0b66e4982c2da78d3cb0930181ac033",
+   "sha256": "87999149ac65f0ad36e27acf1934f9cbc9ae0367e8cb76f81f87cf23d8b5eb5a",
    "indexedAt": "2026-11-17T17:26:39.215Z",
    "kind": "document",
    "locator": "2026-11-17执行层重整补充及原基线正文；2026-11-18当前实施边界见053 §0/§6，历史源码/部署/效果不升级"
@@ -32,7 +32,7 @@
   {
    "id": "coding",
    "path": "架构/025-外部编码线.md",
-   "sha256": "a4a36eeef2536c97c11bce5c401c24b38aa88ddda2bb62759ee7efbbedc9bb54",
+   "sha256": "ff5353266a664902ad53f70cbd6fccf7c7b4d6b532495332be4511fb03577c38",
    "indexedAt": "2026-11-23T22:45:00+08:00",
    "kind": "document",
    "locator": "2026-11-23现行补充；历史原证仍按原时点"
@@ -40,7 +40,7 @@
   {
    "id": "learning",
    "path": "架构/026-学习线.md",
-   "sha256": "f5854084e8708720959cb8f47b4a8476246c0153e436fc4f3e55178145fad7a0",
+   "sha256": "91df5b87b2c3215ca03b8d1938d67177bdcbec4705cb3e59b7d3f01ca4960b36",
    "indexedAt": "2026-11-23T22:45:00+08:00",
    "kind": "document",
    "locator": "2026-11-23现行补充；历史原证仍按原时点"
@@ -48,7 +48,7 @@
   {
    "id": "learning-current-audit",
    "path": "施工/046-skills接入检索施工单-20261108.md",
-   "sha256": "4a42d4b7e5f8a9947ed1fa283ffe75de2e1bfe0cd07178d34bc4bc9f5590d909",
+   "sha256": "243a64e159f8b8ea5054bbac8db99212c884c549c066c38ef4c961191ea6bcb5",
    "indexedAt": "2026-11-16T10:13:39.201Z",
    "kind": "document",
    "locator": "L15–23整单端到端验收出口及已存在接线；L39–50为2026-11-12主人教学/技能可用性历史快照，仅该时点内部记录未公开/正文/检索与未证入口，不据本次索引签自然采用或效果"
@@ -56,7 +56,7 @@
   {
    "id": "taskchain",
    "path": "架构/027-任务链线.md",
-   "sha256": "ffeba7b4fdfa628380ff157fbeac45b37e50e83e18833f5bebacce8af197661b",
+   "sha256": "b922cca16cde08daeb4534c203dfada515764c77625b557cfc4297d98ddae594",
    "indexedAt": "2026-11-23T22:45:00+08:00",
    "kind": "document",
    "locator": "2026-11-23现行补充；历史原证仍按原时点"
@@ -64,7 +64,7 @@
   {
    "id": "rdd",
    "path": "架构/014-RDD模块.md",
-   "sha256": "c98c68252cf1dfdfdef2cfff0230f83c1ba7890ac1d3f75c8009ce673c69a11b",
+   "sha256": "52dadec4ae48337617e8a25a8eee998eca3bc1f8991b0e6f6508b0c7159d6462",
    "indexedAt": "2026-11-16T22:33:00.543Z",
    "kind": "document",
    "locator": "L49–51本轮职责定位及008唯一证据入口；旧源码审计保原时点，不签新发布/实机"
@@ -72,7 +72,7 @@
   {
    "id": "settlement",
    "path": "架构/007-Settlement模块.md",
-   "sha256": "d2e304d1d21f401da42ed03273a1db98a74004a048e254231b593b203e8032fc",
+   "sha256": "59b5322ebc793d2139a1004829c6aa41b894c370c3967edd8f38940cc3db665f",
    "indexedAt": "2026-11-06T15:35:18.311Z",
    "kind": "document",
    "locator": "全文"
@@ -80,7 +80,7 @@
   {
    "id": "worldstate",
    "path": "架构/008-WorldState模块.md",
-   "sha256": "6c7dc3498436146854bc622ec36a62359f34b7b16ef49a03a299386dc4b9b21b",
+   "sha256": "7c0ceb505ad9678c24f9738013cc4fc65b8ed2a1993d826b3c62e043ec65ea44",
    "indexedAt": "2026-11-23T22:45:00+08:00",
    "kind": "document",
    "locator": "2026-11-23现行补充；历史原证仍按原时点"
@@ -88,7 +88,7 @@
   {
    "id": "learner",
    "path": "架构/015-学习模块.md",
-   "sha256": "ca09218b3bae3fb19d2ef3914619a95bc7813193e516133ce1af0b8ed901003c",
+   "sha256": "0086f0697c9e32c2a52bea249eab212f54db202491beae67778ca88785310567",
    "indexedAt": "2026-11-23T22:45:00+08:00",
    "kind": "document",
    "locator": "2026-11-23现行补充；历史原证仍按原时点"
@@ -96,7 +96,7 @@
   {
    "id": "experience",
    "path": "架构/016-经验模块.md",
-   "sha256": "f0c152992c7f0a3dbc09a66da17ac3545d0f86abcbee7f8e07d7e2d72e6eba16",
+   "sha256": "d203cfb3910fa850f8547297e98ce772072fa7bef15fc170bc5a1acb3bbfac09",
    "indexedAt": "2026-11-16T10:39:34.763Z",
    "kind": "document",
    "locator": "L15–31职责/资格/交付分层；L33–45仅2026-11-06主树44609e454的检索、展开与IO历史核查。L27无人工审批按034§1.2/1.5及026§自动试用后复核读取，不把实机有效前置到首次试用；本次重读全文/历史变更但未还原旧索引hash，不签当前源码或效果"
@@ -104,7 +104,7 @@
   {
    "id": "acx",
    "path": "架构/019-ACX模块.md",
-   "sha256": "d640e1be5c96ff5dc2194c813f7c179c68f8e567f8f83391b8a2eaf3adac2d64",
+   "sha256": "3f52032a97ab48da47a5a46f700cfa6ec0c443c143573338b4ab8f157a66e71c",
    "indexedAt": "2026-11-23T22:45:00+08:00",
    "kind": "document",
    "locator": "2026-11-23现行补充；历史原证仍按原时点"
@@ -112,7 +112,7 @@
   {
    "id": "numen",
    "path": "架构/028-Numen引擎与执行层.md",
-   "sha256": "64e6cc7846e3f1ba8fa484a5418b2b387ad04bccdd3f35731cc45636bb08f541",
+   "sha256": "8495ddcf39153b663dac9e78e4abdac7c95a8ce53db3117de1bcdfd1cb6cbaf1",
    "indexedAt": "2026-11-23T22:45:00+08:00",
    "kind": "document",
    "locator": "2026-11-23现行补充；历史原证仍按原时点"
@@ -120,7 +120,7 @@
   {
    "id": "selfcompile",
    "path": "架构/031-游戏内SelfCompile模块.md",
-   "sha256": "a6b48a8a9118556d0a08c3860dbc44eb2cc240b48cad736d94a2403ae062c6c9",
+   "sha256": "ff68aa6c935f84943b5d9d674cc61708208d2aee6e2a39724287f1233441ab6b",
    "indexedAt": "2026-11-06T21:38:00+08:00",
    "kind": "document",
    "locator": "全文"
@@ -128,7 +128,7 @@
   {
    "id": "observationPlan",
    "path": "施工/043-统一观测核心框架与分批施工交付.md",
-   "sha256": "8d18bb98b4e2ad1456a127cfa7555b056c8cb5233aa9995cdc9858fc65d41a89",
+   "sha256": "a8a8fdbe2651e40607fe324ea56f1b3530ebff45f3ba08be1e8f6a19c5a2217b",
    "indexedAt": "2026-11-12T16:23:08.478Z",
    "kind": "document",
    "locator": "208-242"
@@ -136,7 +136,7 @@
   {
    "id": "glossary",
    "path": "术语/001-术语表.md",
-   "sha256": "07de72a1455d3bebb69f90efcbfc6beacd98553d4318b47f49153785d94f449c",
+   "sha256": "d33e8073b433a44f33e52cf50ccb0bb95686d6782d13d31e65eff4fdb9046f40",
    "indexedAt": "2026-11-16T10:39:34.763Z",
    "kind": "document",
    "locator": "L21–33组织术语、L75–85学习证据分层、L126–130驾驶/语义资产/Stage/版本纠偏；仅定义导航，非现行权限或门禁真源。L69两次退场审计为遗留，不启用旧审计锁；流程按006/034与现行进退游戏入口。本次已读全文/历史变更，旧索引hash未还原"
@@ -144,7 +144,7 @@
   {
    "id": "camera",
    "path": "架构/017-镜头模块.md",
-   "sha256": "e785231c4242e1ca89d83216bc701b6956e770f1b462a53b98011bc364fc6b99",
+   "sha256": "14e13b7411dfdd4ac8e8fdfe057ae434b22fe8ee50849ebe0f212c31cb2274ce",
    "indexedAt": "2026-11-15T08:03:36.609Z",
    "kind": "document",
    "locator": "D-20261115-001现行补充及原正文；历史核验按原时点，本次不升级效果"
@@ -152,7 +152,7 @@
   {
    "id": "experiment",
    "path": "架构/003-实验与门禁.md",
-   "sha256": "a59fb5996f8ac7e779d57b8e98090a55ccf10832d977600a55cbec076094aa3d",
+   "sha256": "0178992f09a3842c1941175e7c63133a08e6d3c8d888ca08992d4b34da999768",
    "indexedAt": "2026-11-23T22:45:00+08:00",
    "kind": "document",
    "locator": "2026-11-23现行补充；历史原证仍按原时点"
@@ -161,14 +161,14 @@
    "id": "master-plan",
    "path": "施工/044-验证先行的任务链与学习闭环总施工单.md",
    "kind": "human_requested_construction_plan",
-   "sha256": "d9114317bcd76eef42186d7f4faeb65aa138b08f03b20525fc2c6b5434e6a659",
+   "sha256": "f73048a75877d35392f3566030633920b1823a48362c17916ea4cda22ebb2aad",
    "indexedAt": "2026-11-18T17:07:59.029Z",
    "locator": "L678–684 总施工入口，053 现行顺序只指053 §0；旧174排期仅历史"
   },
   {
    "id": "module-030",
    "path": "架构/030-UI组件模块.md",
-   "sha256": "405bf2046cef24f0b18f4f59571c8b41711b23355e9db4833c3edf75f3134154",
+   "sha256": "0352918251b85ef1db8bb2a62033bea9ac05d5ef5d7c3e8e5745638fe07e004b",
    "indexedAt": "2026-11-08T00:48:00+08:00",
    "kind": "architecture_module_document",
    "locator": "全文"
@@ -176,7 +176,7 @@
   {
    "id": "module-032",
    "path": "架构/032-YSM联动模块.md",
-   "sha256": "c1b0d4750b2bc3d5ea73376ec610cc48eb4dbc159c3316b6732973f2a0caaad1",
+   "sha256": "4304a90ab80223fa4e646dacf04ef5e7027deb912bdb6650277066b348d684a1",
    "indexedAt": "2026-11-08T00:48:00+08:00",
    "kind": "architecture_module_document",
    "locator": "全文"
@@ -184,7 +184,7 @@
   {
    "id": "module-033",
    "path": "架构/033-TLM联动模块.md",
-   "sha256": "c2bf241707c39e1165e515ea72fe9db52f0c40c8b164503b3f5b32b5a4ab5aa6",
+   "sha256": "6f24fada9b21c14621b23380cee39ca5d927dc98a0bae17f68e5f3a5bc8563aa",
    "indexedAt": "2026-11-10T16:08:29.151Z",
    "kind": "architecture_module_document",
    "locator": "§1–3既有外观；§4–11特殊联动设计"
@@ -192,7 +192,7 @@
   {
    "id": "module-002",
    "path": "架构/002-发布契约.md",
-   "sha256": "166de15785e237e44478ffccc9f1cf82cae5bd8855545a010cb4daab3b6edebc",
+   "sha256": "c8d8b828bb34f4eb7bb7af7010684d24541a6def593f48e0d1eb234cffce03dd",
    "indexedAt": "2026-11-08T00:48:00+08:00",
    "kind": "architecture_module_document",
    "locator": "全文"
@@ -200,7 +200,7 @@
   {
    "id": "module-006",
    "path": "架构/006-Harness模块.md",
-   "sha256": "cd1a8faa834da5f21d37a77b39c2a43f54d58db4f528c6b7685b562c3f275515",
+   "sha256": "7ecbae7b615ee05ae15e68dde2b10d2e19e2374c1b0d3510b2c9ea8ee851fab5",
    "indexedAt": "2026-11-22T09:45:00+08:00",
    "kind": "architecture_module_document",
    "locator": "§4 校准与事件监督；§5 派工目标、验收、暂停与恢复"
@@ -208,7 +208,7 @@
   {
    "id": "module-018",
    "path": "架构/018-Stager模块.md",
-   "sha256": "30765378cbfad5852b90e4a1877485367579dcbbaf90efd49d037abb3bee1239",
+   "sha256": "17ac0d34a63fc6376e4c0cea8d7e416e24da39a48dfa702286f3b214da1afa1b",
    "indexedAt": "2026-11-08T00:48:00+08:00",
    "kind": "architecture_module_document",
    "locator": "全文"
@@ -216,7 +216,7 @@
   {
    "id": "module-029",
    "path": "架构/029-模型连接与检索基础模块.md",
-   "sha256": "b7fff12ecdbdea2ac25bfedf19a859a96c09c20da2521820e11f6a5ac208efc5",
+   "sha256": "e0359d835990dcacab3a58b76976768507e1e53cd4e6aa93767047829f5afa31",
    "indexedAt": "2026-11-16T18:21:58.988Z",
    "kind": "architecture_module_document",
    "locator": "L27–29仅11-06公共桥历史覆盖，不推当前宿主无技能消费者；015为实际注册/目录正文区别唯一定位"
@@ -224,7 +224,7 @@
   {
    "id": "team-construction",
    "path": "施工/045-多角色门禁施工方案-20261107.md",
-   "sha256": "a3757fa31553cfd83223c64650d8ecee066956d598fcc090d597389fc43c76be",
+   "sha256": "81f8757324a4b9760c2a8e72d460efce1ccbed039369e61af0f904530df89298",
    "indexedAt": "2026-11-16T16:07:16.581Z",
    "kind": "human_requested_construction_plan",
    "locator": "现行T0–T5 L15–62；频率/方法及目标生命周期只引用006-Harness§4/§5；L64起旧实验仅追溯，不覆盖现行正文"
@@ -233,7 +233,7 @@
    "id": "maid-rdd-plan",
    "path": "施工/052-女仆与RDD特殊联动施工方案-20261110.md",
    "kind": "document",
-   "sha256": "cea0ab898628c8a56c558989336f2ddda365fd74497255c0e25b2918857fa9f0",
+   "sha256": "3e182d5d7e5449d4d3d7f1566ce2e1baacc81cbd38bd56241d3f61cd8bd4018b",
    "indexedAt": "2026-11-16T10:13:39.201Z",
    "locator": "§11.7 L313–323：e826核心50项与09e91本人SELF宿主27项分别限定离线通过，后者候选制品未部署；不签MC壳/provider实际读取、女仆/MSC联动或效果；其余设计沿033"
   },
@@ -241,14 +241,14 @@
    "id": "cycle-training",
    "path": "施工/053-轮回训练施工单.md",
    "kind": "human_requested_construction_plan",
-   "sha256": "393ab9281b9fa77328302b0fc3043aa72c8be418bbf32a86f5b3a86ce7884c1c",
+   "sha256": "e07874f851918f4b4aa948db0c6684d6cfb0c7e29d049cbca7f4e4dcfc5ab458",
    "indexedAt": "2026-11-22T17:56:00+08:00",
    "locator": "历史/暂停批次：保留设计、分工和原证，不据总览自动开工；当前入口只读 knowledge-index"
   },
   {
    "id": "supervision-054",
    "path": "施工/054-现实摄影和小补丁补全.md",
-   "sha256": "e41555dbf9fb846a3a316752cef10f2d2ced5c506486a3b5f5f695f948c256c5",
+   "sha256": "2d4e5d269984b57b45ba4bbdd24b1554cf34e4aee432867878dcb0925cf5a98a",
    "indexedAt": "2026-11-21T03:25:45.000Z",
    "kind": "document",
    "locator": "L24–35 无人值守断点及监督修复施工验收；设计已确认，待施工授权"
@@ -258,8 +258,16 @@
    "path": "施工/055-轮回准备四组并行开发与联调.md",
    "kind": "human_requested_construction_plan",
    "locator": "§5统一验收与§6预训练首片",
-   "sha256": "cebbb8e26ab8cf0a411d852ebecfea5e5f59a89ea516d9a52b70650e0f337884",
+   "sha256": "9a2f99aa175edfaf7e0c3d954418ad9aed5b5457527342832599e6306996bfd4",
    "indexedAt": "2026-11-23T22:45:00+08:00"
+  },
+  {
+   "id": "verify-pointer",
+   "path": "架构/038-进游戏验证指针.md",
+   "kind": "document",
+   "sha256": "7369a7e66b7d39a7336b4a0ce4793cc5c8dc0135fc03abb63c11257829d4d49a",
+   "indexedAt": "2026-11-28T09:30:00+08:00",
+   "locator": "验证取证五步、工具边界与架构行为卡联动"
   }
  ],
  "nodes": [
@@ -4955,7 +4963,30 @@
      }
     }
    ],
-   "layer": 3
+   "layer": 3,
+   "verification": {
+    "why": "备用装备需要真实的基地/容器和物理库存，随身两套不算基地备用",
+    "expected": "基地位置、容器和备用覆盖分别可核；不存在时明确缺失而非伪造",
+    "forbidden": [
+     "base.complete代替备用成立",
+     "未观测箱子就断言永远没有备用"
+    ],
+    "evidenceKinds": [
+     "inventory",
+     "container",
+     "base",
+     "task"
+    ],
+    "acceptance": [
+     "真实入库的备用可被发现",
+     "没有备用时可选补做或调整恢复路线"
+    ],
+    "competingExplanations": [
+     "没有建立备用",
+     "容器未发现",
+     "备用已消耗或已失效"
+    ]
+   }
   },
   {
    "id": "asset-recovery",
@@ -5028,7 +5059,34 @@
     "宏观决策与修复链",
     "decision-cycle"
    ],
-   "layer": 3
+   "layer": 3,
+   "verification": {
+    "why": "没有竞争解释和最小检查，容易把一次巧合当成能力提升或把相关当成因果",
+    "expected": "观察→列竞争解释→做最小检查→按真实结果保留、修正或撤回，并回填未覆盖",
+    "forbidden": [
+     "一次成功就直接晋级",
+     "缺证据时下确定结论",
+     "把旧回执当本轮结果",
+     "只改摘要不改原证"
+    ],
+    "evidenceKinds": [
+     "decision",
+     "request",
+     "tool",
+     "state",
+     "video"
+    ],
+    "acceptance": [
+     "结论能指向具体原证和替代解释",
+     "证据不足时保留未证或撤回，不伪造通过"
+    ],
+    "competingExplanations": [
+     "样本污染",
+     "环境偶然",
+     "工具/adapter副作用",
+     "时间窗错配"
+    ]
+   }
   },
   {
    "id": "architecture-version",
@@ -5231,7 +5289,34 @@
      },
      "limitations": "只更新意图/文档导航；源码、部署、实机、效果及lifecycle实现状态未升级"
     }
-   ]
+   ],
+   "verification": {
+    "why": "多视角证据不齐或时间错位会把相关当成因果，无法判断行为是否改善",
+    "expected": "同一身份与时间窗内的状态、画面、工具或监视证据能互相核对；缺失来源显式标缺口",
+    "forbidden": [
+     "单帧画面代替连续行为",
+     "时间相近就当作同一事件",
+     "工具受理当作世界完成",
+     "缺媒体就断言没有发生"
+    ],
+    "evidenceKinds": [
+     "state",
+     "video",
+     "tool",
+     "request",
+     "supervision"
+    ],
+    "acceptance": [
+     "至少一个直接来源支持观察，且有交叉来源或显式缺口",
+     "未覆盖项写入回填，不用ok:true代替裁决"
+    ],
+    "competingExplanations": [
+     "观测断流",
+     "窗口选错",
+     "身份或时间错位",
+     "证据未送达"
+    ]
+   }
   },
   {
    "id": "autonomy",
@@ -6735,6 +6820,395 @@
    "contracts": [
     "保已有数小时生存基线（本轮主人报告，未独立重验长窗）；介入到终点与自然通关分开，个人重开不重置共享末地/龙战。"
    ]
+  },
+  {
+   "id": "death-fact-and-loss",
+   "title": "死亡事实与能力失效",
+   "parent": "asset-recovery",
+   "purpose": "死亡事实与能力失效；保存死前事实并让旧能力假设失效",
+   "intentKind": "user_intent",
+   "sources": [
+    "verify-pointer",
+    "taskchain"
+   ],
+   "status": {
+    "design": "owner_confirmed_20261126",
+    "code": "not_checked_by_this_service",
+    "deployment": "unknown",
+    "runtime": "unknown",
+    "effect": "unproven"
+   },
+   "gaps": [
+    "实际代码、部署与端到端效果须按验证卡另取证，不沿用旧事故报告冒充当前状态"
+   ],
+   "lifecycle": {
+    "implementationState": "not_checked",
+    "legacyInterference": "none"
+   },
+   "keywords": [
+    "death-fact-and-loss"
+   ],
+   "verification": {
+    "why": "先知道实际失去了什么，不能让死亡后空背包覆盖死前证据",
+    "expected": "死亡事实、损失和未知分开；相关旧资源前提被标失效",
+    "forbidden": [
+     "空逐项表直接解释成无损失",
+     "历史完成证明当前仍持有装备"
+    ],
+    "evidenceKinds": [
+     "inventory",
+     "death",
+     "asset",
+     "task",
+     "request"
+    ],
+    "acceptance": [
+     "死前有物但死亡后已清包仍能建立恢复",
+     "缺失字段标unknown且不误判空背包"
+    ],
+    "competingExplanations": [
+     "没有资产损失",
+     "采集时序/快照覆盖",
+     "资产失效未送达任务消费者"
+    ]
+   },
+   "architectureVersion": "architecture-v8"
+  },
+  {
+   "id": "backup-and-recovery-decision",
+   "title": "备用整备与回收决策",
+   "parent": "asset-recovery",
+   "purpose": "备用整备与回收决策；先核真实备用与风险，再选补装、回收或调整",
+   "intentKind": "user_intent",
+   "sources": [
+    "verify-pointer",
+    "taskchain"
+   ],
+   "status": {
+    "design": "owner_confirmed_20261126",
+    "code": "not_checked_by_this_service",
+    "deployment": "unknown",
+    "runtime": "unknown",
+    "effect": "unproven"
+   },
+   "gaps": [
+    "实际代码、部署与端到端效果须按验证卡另取证，不沿用旧事故报告冒充当前状态"
+   ],
+   "lifecycle": {
+    "implementationState": "not_checked",
+    "legacyInterference": "none"
+   },
+   "keywords": [
+    "backup-and-recovery-decision"
+   ],
+   "verification": {
+    "why": "放弃捡尸不等于恢复能力，恢复需降低再次损失",
+    "expected": "依据实际备用、可达性和风险选择恢复路线并交付执行",
+    "forbidden": [
+     "未整备就直接解冻旧主线",
+     "没有备用时无限等备用",
+     "把合理放弃回收判成错误"
+    ],
+    "evidenceKinds": [
+     "inventory",
+     "container",
+     "task",
+     "request",
+     "tool"
+    ],
+    "acceptance": [
+     "有备用能实际取用",
+     "无备用能局部补准备或改路线"
+    ],
+    "competingExplanations": [
+     "无可用备用",
+     "备用事实缺失",
+     "规划选择未送达执行"
+    ]
+   },
+   "architectureVersion": "architecture-v8"
+  },
+  {
+   "id": "execution-and-terminal-feedback",
+   "title": "执行反馈与恢复闭合",
+   "parent": "rdd",
+   "purpose": "执行反馈与恢复闭合；动作、身体后态与任务终态分开",
+   "intentKind": "user_intent",
+   "sources": [
+    "verify-pointer",
+    "taskchain"
+   ],
+   "status": {
+    "design": "owner_confirmed_20261126",
+    "code": "not_checked_by_this_service",
+    "deployment": "unknown",
+    "runtime": "unknown",
+    "effect": "unproven"
+   },
+   "gaps": [
+    "实际代码、部署与端到端效果须按验证卡另取证，不沿用旧事故报告冒充当前状态"
+   ],
+   "lifecycle": {
+    "implementationState": "not_checked",
+    "legacyInterference": "none"
+   },
+   "keywords": [
+    "execution-and-terminal-feedback"
+   ],
+   "verification": {
+    "why": "工具受理、身体动作和业务完成是三件事",
+    "expected": "真实动作与后态反馈给任务，取消/抢占/恢复不盲续旧路径",
+    "forbidden": [
+     "SUCCESS代替实际世界完成",
+     "旧回执推进新代任务",
+     "危险未解除继续旧动作"
+    ],
+    "evidenceKinds": [
+     "tool",
+     "state",
+     "task",
+     "video",
+     "request"
+    ],
+    "acceptance": [
+     "受理但无动作不签完成",
+     "旧回执不能结算新身份"
+    ],
+    "competingExplanations": [
+     "异步仍在合法等待",
+     "工具已失败",
+     "反馈未送达",
+     "任务身份已换代"
+    ]
+   },
+   "architectureVersion": "architecture-v8"
+  },
+  {
+   "id": "replan-and-resume",
+   "title": "局部重规划与继续",
+   "parent": "rdd",
+   "purpose": "局部重规划与继续；按当前能力替换失效前提并保有效成果",
+   "intentKind": "user_intent",
+   "sources": [
+    "verify-pointer",
+    "taskchain"
+   ],
+   "status": {
+    "design": "owner_confirmed_20261126",
+    "code": "not_checked_by_this_service",
+    "deployment": "unknown",
+    "runtime": "unknown",
+    "effect": "unproven"
+   },
+   "gaps": [
+    "实际代码、部署与端到端效果须按验证卡另取证，不沿用旧事故报告冒充当前状态"
+   ],
+   "lifecycle": {
+    "implementationState": "not_checked",
+    "legacyInterference": "none"
+   },
+   "keywords": [
+    "replan-and-resume"
+   ],
+   "verification": {
+    "why": "环境变化后计划应适应，而非推倒重来或照旧执行",
+    "expected": "重读事实、补失效准备，按现行任务身份继续",
+    "forbidden": [
+     "每次死亡从零重建",
+     "整备未核验就继续旧计划",
+     "重规划抹去真实基地与历史"
+    ],
+    "evidenceKinds": [
+     "task",
+     "asset",
+     "request",
+     "tool",
+     "state"
+    ],
+    "acceptance": [
+     "资源失效触发必要局部调整",
+     "真实有效成果保留且新任务前提成立"
+    ],
+    "competingExplanations": [
+     "旧前提仍有效",
+     "规划能力不足",
+     "恢复支线状态错误",
+     "执行未采用新计划"
+    ]
+   },
+   "architectureVersion": "architecture-v8"
+  },
+  {
+   "id": "supervision-fingerprint",
+   "title": "重复与异步进展观测",
+   "parent": "evidence-validation",
+   "purpose": "重复与异步进展观测；识别AI重复及工具内部空转",
+   "intentKind": "user_intent",
+   "sources": [
+    "verify-pointer",
+    "taskchain"
+   ],
+   "status": {
+    "design": "owner_confirmed_20261126",
+    "code": "not_checked_by_this_service",
+    "deployment": "unknown",
+    "runtime": "unknown",
+    "effect": "unproven"
+   },
+   "gaps": [
+    "实际代码、部署与端到端效果须按验证卡另取证，不沿用旧事故报告冒充当前状态"
+   ],
+   "lifecycle": {
+    "implementationState": "not_checked",
+    "legacyInterference": "none"
+   },
+   "keywords": [
+    "supervision-fingerprint"
+   ],
+   "verification": {
+    "why": "重复心跳和RUNNING不代表有效进展，正常重复也不等于卡死",
+    "expected": "规范参数/可见文本/短序列与阶段进展关联，区分合法等待",
+    "forbidden": [
+     "按参数长度当参数相同",
+     "RUNNING永久免查",
+     "正常绕障或生产被误杀"
+    ],
+    "evidenceKinds": [
+     "request",
+     "tool",
+     "state",
+     "position",
+     "task"
+    ],
+    "acceptance": [
+     "同参重复可检出、不同参数不误判",
+     "异步无进展与合法等待可区分"
+    ],
+    "competingExplanations": [
+     "正常重复生产",
+     "观测断流",
+     "实际无进展",
+     "多入口重复计数"
+    ]
+   },
+   "architectureVersion": "architecture-v8"
+  },
+  {
+   "id": "supervision-intervene",
+   "title": "有限提醒与恢复",
+   "parent": "evidence-validation",
+   "purpose": "有限提醒与恢复；一次有效纠偏并核实际消费",
+   "intentKind": "user_intent",
+   "sources": [
+    "verify-pointer",
+    "taskchain"
+   ],
+   "status": {
+    "design": "owner_confirmed_20261126",
+    "code": "not_checked_by_this_service",
+    "deployment": "unknown",
+    "runtime": "unknown",
+    "effect": "unproven"
+   },
+   "gaps": [
+    "实际代码、部署与端到端效果须按验证卡另取证，不沿用旧事故报告冒充当前状态"
+   ],
+   "lifecycle": {
+    "implementationState": "not_checked",
+    "legacyInterference": "none"
+   },
+   "keywords": [
+    "supervision-intervene"
+   ],
+   "verification": {
+    "why": "监督只接断链，不替规划选方案或接管身体",
+    "expected": "去重提醒送达并被消费；有限恢复或按既有暂停复评",
+    "forbidden": [
+     "发提醒即签纠正成功",
+     "监督直接冻结身体",
+     "旧提醒恢复主人暂停"
+    ],
+    "evidenceKinds": [
+     "supervision",
+     "request",
+     "tool",
+     "task",
+     "state"
+    ],
+    "acceptance": [
+     "重复信号合并且实际换方案或明确阻塞",
+     "正常接续不被重复唤醒"
+    ],
+    "competingExplanations": [
+     "提醒未送达",
+     "模型收到未采用",
+     "工具无法取消",
+     "后续已有真实进展"
+    ]
+   },
+   "architectureVersion": "architecture-v8"
+  },
+  {
+   "id": "verification-architecture",
+   "title": "架构与验证联动",
+   "parent": "harness",
+   "purpose": "架构与验证联动；功能线、行为卡和证据需求统一",
+   "intentKind": "user_intent",
+   "sources": [
+    "intent",
+    "verify-pointer",
+    "taskchain"
+   ],
+   "status": {
+    "design": "owner_confirmed_20261126",
+    "code": "implemented_17_tools",
+    "deployment": "public_projection_not_registered_in_host",
+    "runtime": "fresh_stdio_and_cli_verified",
+    "effect": "unproven"
+   },
+   "gaps": [
+    "公开投影已用独立新进程核17个工具注册、功能线/行为卡/影响查询；宿主刷新、跨仓联合调用和真实游戏效果未验",
+    "公开版不写审计日志；私有宿主实现会追加审计行，不能据此复验私有宿主"
+   ],
+   "lifecycle": {
+    "implementationState": "implemented",
+    "legacyInterference": "none"
+   },
+   "keywords": [
+    "verification-architecture",
+    "architecture_ref",
+    "learner_case",
+    "arch_verification"
+   ],
+   "verification": {
+    "why": "没有预期与功能依赖，收集证据也不知道如何判断",
+    "expected": "先由learner_case取真实观察和architectureRef.verificationQuery，再由arch_verification展开flow/focus行为卡，按events/media/gaps裁决",
+    "forbidden": [
+     "图谱登记证明实现有效",
+     "时间相近证明同一事件",
+     "缺卡证明代码不存在",
+     "把architecture_ref当架构MCP工具或观察证据",
+     "把架构查询当零文件写入"
+    ],
+    "evidenceKinds": [
+     "architecture",
+     "source",
+     "contract",
+     "request"
+    ],
+    "acceptance": [
+     "共享节点可跨线展开",
+     "缺失行为卡显式标uncovered",
+     "architecture_ref三字段完整，MCP缺字段和额外字段被拒绝",
+     "架构21/21与新进程stdio/CLI调用有原证，宿主刷新与游戏效果不代签"
+    ],
+    "competingExplanations": [
+     "功能未登记",
+     "源码未实现",
+     "证据未关联"
+    ]
+   },
+   "architectureVersion": "architecture-v8"
   }
  ],
  "edges": [
@@ -8197,9 +8671,20 @@
    ],
    "kind": "document_or_intent_relation",
    "asOf": "2026-11-23T22:45:00+08:00"
+  },
+  {
+   "from": "verification-architecture",
+   "to": "evidence-validation",
+   "type": "provides_context",
+   "why": "架构给预期与证据需求，验证工具按节点取证；不合并事实所有者",
+   "sources": [
+    "verify-pointer"
+   ],
+   "asOf": "2026-11-27",
+   "directed": true
   }
  ],
- "architectureVersion": "architecture-v7",
+ "architectureVersion": "architecture-v8",
  "decisionHistory": [
   {
    "id": "D-20261106-001",
@@ -9442,6 +9927,44 @@
    ],
    "attribution": "主人本会话连续补充并答对的确认；技术落点为按既有框架整理",
    "syncStatus": "documents_and_navigation_updated_runtime_unverified"
+  },
+  {
+   "id": "D-20261127-VERIFY-ARCH-001",
+   "version": "architecture-v8",
+   "at": "2026-11-27T01:15:00+08:00",
+   "kind": "human_confirmed",
+   "source": "verify-pointer",
+   "summary": "架构MCP与验证工具合并使用：功能线可共享节点，节点含行为卡和证据需求；验证优先、记录其次，未验不冒充有效。",
+   "affects": [
+    "death-fact-and-loss",
+    "backup-and-recovery-decision",
+    "execution-and-terminal-feedback",
+    "replan-and-resume",
+    "supervision-fingerprint",
+    "supervision-intervene",
+    "verification-architecture",
+    "asset-recovery",
+    "rdd",
+    "evidence-validation"
+   ],
+   "supersedes": [
+    "D-20261123-PRETRAIN-002:architecture_mcp_verification_design_only"
+   ],
+   "corrections": [
+    "架构MCP不是验证工具附属文档；它提供判断依据和上下游影响。",
+    "不把去村庄/两盾/满血等经验直接写成全局硬门。"
+   ],
+   "preserves": [
+    "四线、原节点ID、来源哈希、五维状态、只读导航、现有接口",
+    "实际效果仍由原证验证，不更新旧模块实现状态"
+   ],
+   "evidenceRefs": [
+    "架构/034-架构思维导航MCP.md",
+    "架构/038-进游戏验证指针.md",
+    "工程/进游戏验证/002-游戏验证规范及盲点.md"
+   ],
+   "attribution": "主人2026-11-27要求把架构MCP与验证工具合并使用；公开投影只复验公开版查询，不代签私有宿主或游戏效果。",
+   "syncStatus": "public_projection_stdio_and_cli_verified_private_host_and_game_effect_unverified"
   }
  ],
  "navigationVersion": "navigation-v2",
@@ -9503,21 +10026,21 @@
  },
  "navigationService": {
   "name": "rdd_architecture",
-  "version": "0.3.0",
-  "previousVersion": "0.1.0",
-  "decisionId": "D-20261108-001",
-  "changeState": "project_directory_and_pointer_maps_implemented_pending_host_reload",
-  "changeSummary": "状态检查/分层/有向关系及决策查询已写入；2026-11-17指挥官session-已省略原票证schema2/service0.2.0九工具与decisions资源可用、关键词侧信道可见（034当前有限补充）。changeState保历史接线标记；全会话/ACP/完整重载溯源、arch_propose及全部层级/采用/游戏效果未验，不再泛称所有本机客户端未实测。"
+  "version": "0.4.0",
+  "previousVersion": "0.3.0",
+  "decisionId": "D-20261127-VERIFY-ARCH-001",
+  "changeState": "public_projection_flows_and_verification_cards_verified_host_integration_pending",
+  "changeSummary": "公开投影新增3条功能线、7个行为卡节点和arch_flows/arch_verification/arch_impact，共17个工具；已在独立新进程核stdio/CLI。私有宿主刷新、跨仓联合调用与真实游戏效果未验。"
  },
  "moduleCoverage": {
-  "checkedAt": "2026-11-08T01:18:00+08:00",
-  "sourceDirectory": "架构意图",
+  "checkedAt": "2026-11-28T12:00:00+08:00",
+  "sourceDirectory": "架构",
   "documents": [
    {
     "path": "架构/030-UI组件模块.md",
     "sourceId": "module-030",
-    "lineCount": 27,
-    "sha256": "405bf2046cef24f0b18f4f59571c8b41711b23355e9db4833c3edf75f3134154",
+    "lineCount": 31,
+    "sha256": "0352918251b85ef1db8bb2a62033bea9ac05d5ef5d7c3e8e5745638fe07e004b",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9526,8 +10049,8 @@
    {
     "path": "架构/032-YSM联动模块.md",
     "sourceId": "module-032",
-    "lineCount": 23,
-    "sha256": "c1b0d4750b2bc3d5ea73376ec610cc48eb4dbc159c3316b6732973f2a0caaad1",
+    "lineCount": 27,
+    "sha256": "4304a90ab80223fa4e646dacf04ef5e7027deb912bdb6650277066b348d684a1",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9536,8 +10059,8 @@
    {
     "path": "架构/033-TLM联动模块.md",
     "sourceId": "module-033",
-    "lineCount": 25,
-    "sha256": "5d3e8dd053f4342a26d13645d305268ecf558fb645ca4b45cb5de96f8d9ed6ae",
+    "lineCount": 225,
+    "sha256": "6f24fada9b21c14621b23380cee39ca5d927dc98a0bae17f68e5f3a5bc8563aa",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9546,8 +10069,8 @@
    {
     "path": "架构/002-发布契约.md",
     "sourceId": "module-002",
-    "lineCount": 36,
-    "sha256": "166de15785e237e44478ffccc9f1cf82cae5bd8855545a010cb4daab3b6edebc",
+    "lineCount": 40,
+    "sha256": "c8d8b828bb34f4eb7bb7af7010684d24541a6def593f48e0d1eb234cffce03dd",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9556,8 +10079,8 @@
    {
     "path": "架构/031-游戏内SelfCompile模块.md",
     "sourceId": "selfcompile",
-    "lineCount": 31,
-    "sha256": "a6b48a8a9118556d0a08c3860dbc44eb2cc240b48cad736d94a2403ae062c6c9",
+    "lineCount": 35,
+    "sha256": "ff68aa6c935f84943b5d9d674cc61708208d2aee6e2a39724287f1233441ab6b",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "present",
@@ -9566,8 +10089,8 @@
    {
     "path": "架构/001-RDD必读.md",
     "sourceId": "overview",
-    "lineCount": 62,
-    "sha256": "d217231014ca4fa8b4b82cad54ae898f8574d4e0dea3c7626af323ad1f1a376c",
+    "lineCount": 69,
+    "sha256": "87999149ac65f0ad36e27acf1934f9cbc9ae0367e8cb76f81f87cf23d8b5eb5a",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9576,8 +10099,8 @@
    {
     "path": "架构/003-实验与门禁.md",
     "sourceId": "experiment",
-    "lineCount": 41,
-    "sha256": "6304ac6a9cab0673a3846962dd1313acb4c21c2cafcd120ea78d4fd4f7a94a10",
+    "lineCount": 52,
+    "sha256": "0178992f09a3842c1941175e7c63133a08e6d3c8d888ca08992d4b34da999768",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9586,8 +10109,8 @@
    {
     "path": "架构/006-Harness模块.md",
     "sourceId": "module-006",
-    "lineCount": 92,
-    "sha256": "9d4245604b4f2d9b02235ebcd02a565b361fa478943490c9b63273d96859fc26",
+    "lineCount": 176,
+    "sha256": "7ecbae7b615ee05ae15e68dde2b10d2e19e2374c1b0d3510b2c9ea8ee851fab5",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9596,8 +10119,8 @@
    {
     "path": "架构/007-Settlement模块.md",
     "sourceId": "settlement",
-    "lineCount": 38,
-    "sha256": "d2e304d1d21f401da42ed03273a1db98a74004a048e254231b593b203e8032fc",
+    "lineCount": 42,
+    "sha256": "59b5322ebc793d2139a1004829c6aa41b894c370c3967edd8f38940cc3db665f",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9606,8 +10129,8 @@
    {
     "path": "架构/008-WorldState模块.md",
     "sourceId": "worldstate",
-    "lineCount": 54,
-    "sha256": "2dd944284156b86a9175af5ed7082e12cc8b5112572e67c0940f924f8de90ad3",
+    "lineCount": 90,
+    "sha256": "7c0ceb505ad9678c24f9738013cc4fc65b8ed2a1993d826b3c62e043ec65ea44",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9616,8 +10139,8 @@
    {
     "path": "架构/014-RDD模块.md",
     "sourceId": "rdd",
-    "lineCount": 56,
-    "sha256": "9f6537a074ff744263725513a59b5efbef1ea083237e624a2ca45896796d66f6",
+    "lineCount": 74,
+    "sha256": "52dadec4ae48337617e8a25a8eee998eca3bc1f8991b0e6f6508b0c7159d6462",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9626,8 +10149,8 @@
    {
     "path": "架构/015-学习模块.md",
     "sourceId": "learner",
-    "lineCount": 43,
-    "sha256": "d4d30c3b1512a5df01c32f93240785df11448f618fd94dc0b6ded2512834f770",
+    "lineCount": 54,
+    "sha256": "0086f0697c9e32c2a52bea249eab212f54db202491beae67778ca88785310567",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9636,8 +10159,8 @@
    {
     "path": "架构/017-镜头模块.md",
     "sourceId": "camera",
-    "lineCount": 40,
-    "sha256": "038fe35b953051339b74c2bdb6519a08a81c4550003377ecfa51700b4f678912",
+    "lineCount": 79,
+    "sha256": "14e13b7411dfdd4ac8e8fdfe057ae434b22fe8ee50849ebe0f212c31cb2274ce",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9646,8 +10169,8 @@
    {
     "path": "架构/018-Stager模块.md",
     "sourceId": "module-018",
-    "lineCount": 33,
-    "sha256": "30765378cbfad5852b90e4a1877485367579dcbbaf90efd49d037abb3bee1239",
+    "lineCount": 37,
+    "sha256": "17ac0d34a63fc6376e4c0cea8d7e416e24da39a48dfa702286f3b214da1afa1b",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "present",
@@ -9656,8 +10179,8 @@
    {
     "path": "架构/025-外部编码线.md",
     "sourceId": "coding",
-    "lineCount": 44,
-    "sha256": "399f6524c4e74cef4c3f76bcb3717b42e74618e125a3c1e7bd9799d1ba3fc5f3",
+    "lineCount": 63,
+    "sha256": "ff5353266a664902ad53f70cbd6fccf7c7b4d6b532495332be4511fb03577c38",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9666,8 +10189,8 @@
    {
     "path": "架构/026-学习线.md",
     "sourceId": "learning",
-    "lineCount": 80,
-    "sha256": "a90e8d5ce29b5617ce7d0b5c7060a2a6ee6f10167d4fde312bb38c7a3d867fce",
+    "lineCount": 207,
+    "sha256": "91df5b87b2c3215ca03b8d1938d67177bdcbec4705cb3e59b7d3f01ca4960b36",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9676,8 +10199,8 @@
    {
     "path": "架构/027-任务链线.md",
     "sourceId": "taskchain",
-    "lineCount": 136,
-    "sha256": "9531728e017bc667409a3e705887c5531e869eb5e25f8eecb877d351ec924393",
+    "lineCount": 147,
+    "sha256": "b922cca16cde08daeb4534c203dfada515764c77625b557cfc4297d98ddae594",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9686,8 +10209,8 @@
    {
     "path": "架构/028-Numen引擎与执行层.md",
     "sourceId": "numen",
-    "lineCount": 43,
-    "sha256": "54cee2d7bcef5c75595021614f3f2b9088e07deebd5d418e98bacff9e7606d83",
+    "lineCount": 68,
+    "sha256": "8495ddcf39153b663dac9e78e4abdac7c95a8ce53db3117de1bcdfd1cb6cbaf1",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9696,8 +10219,8 @@
    {
     "path": "架构/029-模型连接与检索基础模块.md",
     "sourceId": "module-029",
-    "lineCount": 35,
-    "sha256": "481602c674052e2aa8571d721de518b608e991e9aad88c87fb7be57173af88c2",
+    "lineCount": 39,
+    "sha256": "e0359d835990dcacab3a58b76976768507e1e53cd4e6aa93767047829f5afa31",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9706,8 +10229,8 @@
    {
     "path": "架构/016-经验模块.md",
     "sourceId": "experience",
-    "lineCount": 47,
-    "sha256": "31d244a93f0b626ca2c6a76bed2543cd4481598934865e8180c16cf7f16554bb",
+    "lineCount": 51,
+    "sha256": "d203cfb3910fa850f8547297e98ce772072fa7bef15fc170bc5a1acb3bbfac09",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9716,8 +10239,8 @@
    {
     "path": "架构/019-ACX模块.md",
     "sourceId": "acx",
-    "lineCount": 41,
-    "sha256": "2079f060d29e45fb6cb1f3525db42bed661f3ea503c4f19e8319275c920e98d8",
+    "lineCount": 119,
+    "sha256": "3f52032a97ab48da47a5a46f700cfa6ec0c443c143573338b4ab8f157a66e71c",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9726,8 +10249,8 @@
    {
     "path": "架构/034-架构思维导航MCP.md",
     "sourceId": "intent",
-    "lineCount": 250,
-    "sha256": "6b5cd06aa5c503985d1aa7e84537814b2397e351b4de12042786bd22b91338dd",
+    "lineCount": 403,
+    "sha256": "b0b09c1a545fe716c5ee5bc8677285d5e28469149a2a2b3eb25c17b5d9589629",
     "documentStatus": "current",
     "implementationVerification": "must_be_proven_by_source_artifact_deployment_runtime_effect",
     "legacyInterference": "unknown",
@@ -9776,22 +10299,110 @@
    "evidence": "D-20261108-001"
   }
  ],
- "projects": [
+ "projects": [],
+ "flows": [
   {
-   "id": "rdd-harness",
-   "title": "RDD Harness / 指针与工程脚手架",
-   "file": "042-Harness导航图谱.json",
-   "root": ".",
-   "entry": "本机路径已省略",
-   "purpose": "四模块内容指纹、命令分工、工具注册与生命周期。"
+   "id": "death-recovery",
+   "title": "死亡恢复：从事实到继续",
+   "purpose": "恢复行动能力并减少损失；先核备用，再按风险决定回收、补装或局部重规划",
+   "sources": [
+    "verify-pointer",
+    "taskchain"
+   ],
+   "steps": [
+    {
+     "nodeId": "supply-route",
+     "role": "基地/容器/备用准备；可为空，但必须如实知道",
+     "dependsOn": [],
+     "required": false
+    },
+    {
+     "nodeId": "death-fact-and-loss",
+     "role": "死亡时冻结事实并使旧能力假设失效",
+     "dependsOn": []
+    },
+    {
+     "nodeId": "backup-and-recovery-decision",
+     "role": "根据备用与风险决定恢复路线",
+     "dependsOn": [
+      "supply-route",
+      "death-fact-and-loss"
+     ]
+    },
+    {
+     "nodeId": "execution-and-terminal-feedback",
+     "role": "执行恢复动作并回真实后态",
+     "dependsOn": [
+      "backup-and-recovery-decision"
+     ]
+    },
+    {
+     "nodeId": "replan-and-resume",
+     "role": "核验能力后调整失效计划并继续",
+     "dependsOn": [
+      "execution-and-terminal-feedback"
+     ]
+    }
+   ]
   },
   {
-   "id": "agene",
-   "title": "Agene / Hycine",
-   "file": "043-Agene导航图谱.json",
-   "root": "本机路径已省略",
-   "entry": "本机路径已省略",
-   "purpose": "独立项目入口；不套RDD施工与游戏授权。"
+   "id": "bounded-supervision",
+   "title": "重复与异步空转的有限监督",
+   "purpose": "复用现有工具自检和RDD监督，发现重复/假忙，给一次可消费的纠偏并复核",
+   "sources": [
+    "verify-pointer",
+    "taskchain"
+   ],
+   "steps": [
+    {
+     "nodeId": "supervision-fingerprint",
+     "role": "记录动作/文本/阶段与有效进展",
+     "dependsOn": []
+    },
+    {
+     "nodeId": "supervision-intervene",
+     "role": "提醒、有限恢复与真实消费复核",
+     "dependsOn": [
+      "supervision-fingerprint"
+     ]
+    },
+    {
+     "nodeId": "execution-and-terminal-feedback",
+     "role": "身体终态与原任务继续分开",
+     "dependsOn": [
+      "supervision-intervene"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "architecture-verification-loop",
+   "title": "架构与验证联合闭环",
+   "purpose": "先按架构确定预期和影响，再取实际输入/行为/结果验证，回填状态与方法",
+   "sources": [
+    "verify-pointer"
+   ],
+   "steps": [
+    {
+     "nodeId": "verification-architecture",
+     "role": "按功能线取预期与验证契约",
+     "dependsOn": []
+    },
+    {
+     "nodeId": "evidence-validation",
+     "role": "按身份与时间取画面/状态/上下文/工具证据",
+     "dependsOn": [
+      "verification-architecture"
+     ]
+    },
+    {
+     "nodeId": "decision-cycle",
+     "role": "观察→竞争解释→最小检查→真实结果",
+     "dependsOn": [
+      "evidence-validation"
+     ]
+    }
+   ]
   }
  ]
 }

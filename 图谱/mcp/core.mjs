@@ -51,6 +51,21 @@ export class Architecture {
     for (const edge of this.graph.edges) {
       if (!ids.includes(edge.from) || !ids.includes(edge.to)) throw Error('悬空关系');
     }
+    this.flows = new Map((this.graph.flows || []).map(f => [f.id, f]));
+    const flowIds = [...this.flows.keys()];
+    if (new Set(flowIds).size !== (this.graph.flows || []).length) throw Error('功能线身份重复');
+    for (const f of this.flows.values()) {
+      const stepIds = (f.steps || []).map(s => s.nodeId);
+      if (!f.id || !f.title || !f.purpose || !stepIds.length || new Set(stepIds).size !== stepIds.length) throw Error('功能线缺少身份、目的或步骤: ' + f.id);
+      for (const s of f.steps || []) {
+        if (!this.nodes.has(s.nodeId)) throw Error('功能线悬空节点: ' + f.id + '/' + s.nodeId);
+        for (const dep of s.dependsOn || []) if (!stepIds.includes(dep)) throw Error('功能线悬空依赖: ' + f.id + '/' + s.nodeId + '/' + dep);
+      }
+      const seen = new Set();
+      const visit = id => { if (seen.has(id)) throw Error('功能线依赖循环: ' + f.id + '/' + id); seen.add(id); for (const dep of f.steps.find(s => s.nodeId === id).dependsOn || []) visit(dep); seen.delete(id); };
+      for (const id of stepIds) visit(id);
+      for (const sid of f.sources || []) if (!this.sources.has(sid)) throw Error('功能线未知来源: ' + sid);
+    }
     for (const n of this.graph.nodes) {
       if (n.parent && !this.nodes.has(n.parent)) throw Error('未知父节点');
       for (const id of n.sources || []) if (!this.sources.has(id)) throw Error('未知来源');
@@ -104,6 +119,48 @@ export class Architecture {
     }
     return out;
   }
+  flowSummary(f) {
+    return {id:f.id,title:f.title,purpose:f.purpose,stepCount:f.steps.length,nodeIds:f.steps.map(s=>s.nodeId),sources:f.sources||[]};
+  }
+  flow(id) {
+    const f=this.flows.get(id); if(!f) throw Error('未知功能线: '+id+'；先用arch_flows发现');
+    return {...f,steps:f.steps.map(s=>{const n=this.card(s.nodeId);return {...s,node:{id:n.id,title:n.title,purpose:n.purpose,lifecycle:n.lifecycle,assessment:n.assessment,verification:n.verification||null,sourceFreshness:n.sources.map(x=>({id:x.id,freshness:x.freshness}))}};})};
+  }
+  flowList(a) {
+    const flows=[...this.flows.values()];
+    if(a.focus) return {flow:this.flow(a.focus),note:'步骤dependsOn指向上游；required=false是可选准备，不代表可跳过其声明后的依赖。'};
+    const query=String(a.query||'').trim().toLowerCase();
+    const rows=flows.filter(f=>!query||JSON.stringify({id:f.id,title:f.title,purpose:f.purpose,steps:f.steps}).toLowerCase().includes(query));
+    const limit=integer(a.limit,20,1,100);
+    return {flows:rows.slice(0,limit).map(f=>this.flowSummary(f)),omitted:Math.max(0,rows.length-limit),total:rows.length,next:'arch_flows focus=<flowId>展开；arch_verification取行为卡；arch_impact查上下游和共用节点。'};
+  }
+  impact(a) {
+    const nodeId=a.focus, requestedFlow=a.flow;
+    if(!this.nodes.has(nodeId)) throw Error('未知节点: '+nodeId);
+    const candidates=requestedFlow?[this.flow(requestedFlow)]:[...this.flows.values()].filter(f=>f.steps.some(s=>s.nodeId===nodeId));
+    if(requestedFlow&&!candidates[0].steps.some(s=>s.nodeId===nodeId)) throw Error('节点不属于指定功能线');
+    const seen=new Set(),related=[];
+    for(const f of candidates) for(const s of f.steps) {
+      const upstream=s.nodeId===nodeId?(s.dependsOn||[]):(s.dependsOn||[]).includes(nodeId)?[s.nodeId]:[];
+      for(const other of upstream){const key=f.id+'/'+other;if(seen.has(key))continue;seen.add(key);const n=this.card(other);related.push({flowId:f.id,nodeId:n.id,title:n.title,direction:s.nodeId===nodeId?'upstream':'downstream',required:s.required!==false,why:s.role||null,lifecycle:n.lifecycle,assessment:n.assessment});}
+    }
+    return {focus:nodeId,flows:candidates.map(f=>this.flowSummary(f)),sharedWith:[...this.flows.values()].filter(f=>!candidates.includes(f)&&f.steps.some(s=>s.nodeId===nodeId)).map(f=>this.flowSummary(f)),related,note:'只沿已登记功能线显示直接与间接依赖；未登记关系是覆盖缺口，不证明不存在。'};
+  }
+  methodReferences() {
+    // 公开版只引用本仓已发布正文，不回读私有施工单、方法库或证据工具源码。
+    return ['module-006','intent','verify-pointer'].map(id=>this.source(id));
+  }
+  verification(a) {
+    const flow=a.flow?this.flow(a.flow):null, nodeId=a.focus;
+    if(flow&&nodeId&&!flow.steps.some(s=>s.nodeId===nodeId)) throw Error('节点不属于指定功能线');
+    const ids=nodeId?[nodeId]:flow?flow.steps.map(s=>s.nodeId):this.graph.nodes.filter(n=>n.verification).map(n=>n.id);
+    if(nodeId&&!this.nodes.has(nodeId)) throw Error('未知节点: '+nodeId);
+    const nodes=ids.map(id=>{const n=this.card(id);return {id,title:n.title,purpose:n.purpose,lifecycle:n.lifecycle,assessment:n.assessment,verification:n.verification||null,contractStatus:n.verification?'registered':'missing',sources:n.sources.map(s=>({id:s.id,path:s.path,locator:s.locator,freshness:s.freshness}))};});
+    return {flow:flow?this.flowSummary(flow):null,nodes,uncovered:nodes.filter(n=>!n.verification).map(n=>n.id),
+      methodRefs:this.methodReferences(),
+      evidenceQuery:{project:a.project||'rdd',flowId:flow?.id||null,nodeId:nodeId||null,timeWindow:'由调用者提供，不由架构图谱猜测',kinds:[...new Set(nodes.flatMap(n=>n.verification?.evidenceKinds||[]))]},
+      note:'这里提供预期、判据与证据需求，不读取游戏、不返回观察结果。缺少行为卡是登记缺口，不等于代码未实现；效果仍以原证验证。'};
+  }
   decisionsFor(id) {
     return (this.graph.decisionHistory || []).filter(d => d.affects?.includes(id) || this.nodes.get(id)?.decisionId === d.id);
   }
@@ -147,6 +204,7 @@ export class Architecture {
       if(typeof e.why!=='string'||!e.why.trim()) issues.push({kind:'missing_edge_why',edge:i});
       if(typeof e.type!=='string'||!e.type.trim()) issues.push({kind:'missing_edge_type',edge:i});
     }
+    for(const f of this.flows.values()) for(const s of f.steps) if(!this.nodes.get(s.nodeId)?.verification) issues.push({kind:'missing_verification_card',flowId:f.id,nodeId:s.nodeId});
     const history=this.graph.decisionHistory||[], ids=new Set();
     for(const d of history) {
       if(ids.has(d.id)) issues.push({kind:'duplicate_decision_id',decisionId:d.id}); ids.add(d.id);
@@ -247,6 +305,9 @@ export class Architecture {
     if(name==='arch_projects') result={projects:[{id:'rdd',title:'RDD / Minecraft',entry:'AGENTS.md',purpose:'真实Minecraft长程运行、学习与改进'},...(this.graph.projects||[]).map(({_file,_root,...p})=>p)],note:'每项目一张小地图；选择project继续，不合并项目正文、权限或施工授权。'};
     else if(name==='arch_overview') result=this.overview();
     else if(name==='arch_focus') result=this.navigate(a);
+    else if(name==='arch_flows') result=this.flowList(a);
+    else if(name==='arch_impact') { if(!a.focus) throw Error('arch_impact需要focus节点'); result=this.impact(a); }
+    else if(name==='arch_verification') result=this.verification(a);
     else if(name==='arch_search') {
       if(typeof a.query!=='string'||!a.query.trim()||a.query.length>500) throw Error('query需为1-500字符');
       const terms=unique(a.query.trim().toLowerCase().split(/[\s,，、;；]+/).filter(Boolean));
